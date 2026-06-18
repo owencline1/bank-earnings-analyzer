@@ -1,0 +1,79 @@
+{
+  "ticker": "USB",
+  "bank_name": "U.S. Bancorp",
+  "call_date": "2026-04-16",
+  "headline_metrics": {
+    "eps": "$1.18, up approximately 15% year over year",
+    "revenue": "$7.3 billion total net revenue, up 4.7% year over year",
+    "nii": "$4.3 billion (taxable-equivalent), up 4.1% year over year",
+    "cet1": "10.8%, or 9.3% including AOCI",
+    "nco_rate": "0.56%, up 2 basis points sequentially",
+    "roe_rotce": "Return on tangible common equity of 17%; return on average assets of 1.15%"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NIM was flat at 2.77% as core loan growth and stable deposit pricing offset elevated mortgage prepayments and tighter spreads; management expects continued margin progression and reiterated a path to 3%, with full-year NII growth guided to 4%-6%.",
+      "stance": "expanding",
+      "quote": "Net interest margin was flat linked quarter at 2.77%, as core loan growth and stable deposit pricing were offset by elevated mortgage prepayments and somewhat tighter credit spreads.",
+      "speaker": "John Stern, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit quality remained stable with nonperforming assets improving to 0.38%; the net charge-off ratio ticked up 2 bps to 0.56% driven by normal credit card seasonality, with management characterizing client resilience as strong.",
+      "stance": "stable",
+      "quote": "The first quarter net charge-off ratio was 0.56%, increasing 2 basis points sequentially, driven by the seasonal nature of credit cards, while our allowance for credit losses of nearly $8 billion represented 2% of period-end loans.",
+      "speaker": "John Stern, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "Management did not specifically discuss CRE loan-loss reserve builds or releases or office CRE; CRE was only cited as a contributor to broad-based loan growth, and the overall allowance was held at nearly $8 billion (2% of loans).",
+      "stance": "not discussed",
+      "quote": "",
+      "speaker": "",
+      "confidence": "low",
+      "verbatim_ok": null
+    },
+    "deposit_costs": {
+      "summary": "Deposit pricing was stable with the deposit mix improving as record consumer deposits offset wholesale seasonality; management is reducing CDs and higher-cost institutional deposits and expects to hold the line on costs.",
+      "stance": "stable",
+      "quote": "On deposits, yes — we have seen stabilization in deposit mix. We are ultra-focused on growing consumer deposits and, on the wholesale side, on operational deposits. We have been reducing CDs and higher-cost institutional deposits and other less valuable, one-off types.",
+      "speaker": "John Stern, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "CET1 was 10.8% (9.3% incl. AOCI); buybacks were doubled from $100M to $200M this quarter with further glide-up anticipated, and management reaffirmed a 70%-75% payout target while citing expected RWA relief from Basel III proposals as supportive of returning to historical deployment.",
+      "stance": "increasing",
+      "quote": "The dividend is extremely important, and buybacks — we went from $100 million to $200 million this quarter. I would anticipate we will continue to glide up.",
+      "speaker": "John Stern, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Average loans grew 3.8% YoY (5.3% ex-2025 loan sales) with broad-based organic strength in commercial, credit card, and CRE; management raised its full-year outlook to mid-single digits, plus an incremental ~$1.6B from the Amazon partnership in Q3.",
+      "stance": "accelerating",
+      "quote": "We have talked about loan growth being in that 3% to 4% range, but I certainly think it is going to be higher than that — probably more in the mid-single-digit range — for the full year.",
+      "speaker": "John Stern, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management views the macro backdrop as constructive despite some softening sentiment, citing stable consumer spend, core loan demand, and delinquency trends, with sentiment shifting toward healthy core middle-market demand.",
+      "stance": "constructive",
+      "quote": "As we look ahead, the macroeconomic backdrop remains constructive, despite some softening of sentiment recently. Consumer spend, core loan demand, and credit delinquency trends all indicate relative stability.",
+      "speaker": "Gunjan Kedia, President and CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Gerard Cassidy (RBC) and others pressed management on the NDFI / business credit intermediary portfolio and what scenario would trigger losses; management defended the structures as having very low loss likelihood while acknowledging they 'never say never.'",
+      "stance": "NDFI loss-risk pushback",
+      "quote": "As bankers, we never say never — that is why we have limits, underwriting practices, and risk management. It is hard to envision the trigger, but rigor and limits are there for that reason.",
+      "speaker": "John Stern, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  }
+}

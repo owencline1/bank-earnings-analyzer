@@ -1,0 +1,79 @@
+{
+  "ticker": "BAC",
+  "bank_name": "Bank of America",
+  "call_date": "2026-04-15",
+  "headline_metrics": {
+    "eps": "$1.11 (up 25% YoY)",
+    "revenue": "$30.3 billion (up 7% YoY)",
+    "nii": "$15.9 billion FTE (up 9% YoY)",
+    "cet1": "11.2% (down 14 bps QoQ)",
+    "nco_rate": "48 bps net loss rate",
+    "roe_rotce": "ROTCE 16%"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NII was $15.9B FTE, up 9% YoY with net interest yield of 2.07% (up 8 bps YoY); management raised full-year 2026 NII growth guidance to 6%-8% versus 2025, driven by outperformance, a curve that now assumes no rate cuts, fixed-rate asset repricing and balance sheet growth.",
+      "stance": "raised",
+      "quote": "we're raising our full year NII growth guidance range for 2026 versus 2025 to be up 6% to 8%, and that outlook continues to assume moderate deposit and loan growth.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit performance was described as stable and benign, with net charge-offs of ~$1.4B and a 48 bps net loss rate, down YoY and modestly up sequentially on card seasonality; net charge-offs, card delinquencies, reservable criticized assets and nonperforming loans all declined versus Q1 2025.",
+      "stance": "stable",
+      "quote": "Net charge-offs were approximately $1.4 billion with a net loss rate of 48 basis points. Both of those were down from Q1 '25 and modestly up from Q4, primarily reflecting the normal seasonality in our card portfolio with continued stability across the commercial portfolio and improved results in CRE office loans.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "Provision included a modest net reserve RELEASE driven by improvements in CRE office (and card), as the office portfolio shrank with fewer NPLs and the first quarter in over 3 years with no new NPL inflows into office; this release was partially offset by growth-related builds in corporate/commercial lending.",
+      "stance": "releasing",
+      "quote": "The only thing that happened to offset that was we had some release from the continued improvement in CRE office where we had built reserve pretty significantly. And as that portfolio has gotten smaller, as we've got less and less in the way of NPLs and [indiscernible] there, we've been able to take some of the reserve back out.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Total rate paid on deposits fell 16 bps to 1.47%, aided by a high-quality, low-cost mix and discipline that lets BofA avoid chasing CDs; with no rate cuts assumed, management sees little impetus to change interest-bearing pricing and noted noninterest-bearing deposits picked up.",
+      "stance": "falling",
+      "quote": "The total rate paid on our deposits declined 16 basis points to 1.47%, and this allows us to maintain one of the lowest cost funding profiles among the large U.S. banks.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "BofA returned $2B in dividends and $7.2B in buybacks, letting CET1 drift down 14 bps to 11.2% as capital return outpaced earnings; with growing clarity on Basel III Endgame and G-SIB indexing expected to net to lower requirements, management is moving toward a tighter ~50 bps buffer over minimums.",
+      "stance": "increasing",
+      "quote": "This quarter, we paid $2 billion in common dividends and we bought back $7.2 billion of common shares.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Average loans grew nearly 9% YoY, led by commercial portfolios, with consumer up ~4% (incl. 3% card); growth was described as broad-based organic core client activity, with the C&I pickup driven mostly by revolver/credit-line utilization (~$5B-$10B) rather than acquisitions.",
+      "stance": "steady",
+      "quote": "Average balances grew nearly 9% year-over-year driven primarily by client demand in our commercial portfolios. That growth was broad-based, and it reflects good core operating client activity.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management sees a resilient economy with U.S. GDP growth around 2%, a strong, broadly spending consumer supported by solid wage growth and low unemployment, while acknowledging risks (Middle East, trade, inflation); overall the macro backdrop is characterized as constructive.",
+      "stance": "constructive",
+      "quote": "In our view, while those risks are out there, the macro backdrop remains constructive and a diversified business model position us well to continue to deliver for you across a range of economic scenarios.",
+      "speaker": "Brian Moynihan, Chair and CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Saul Martinez (HSBC) pushed back on the reserve release amid macro uncertainty, suggesting BofA reserves less conservatively than peers; Borthwick rejected the framing, attributing lower reserves to a higher-quality loan mix and lowest stress-test loss rates, noting they actually skewed reserves toward the downside/baseline case while releasing only on CRE office improvement.",
+      "stance": "reserve-philosophy challenge",
+      "quote": "I was a little bit surprised that you saw the slight reserve release this quarter given the macro uncertainties. And -- so I guess how are you factoring in macro volatility, downside case scenarios into reserving? Because it does seem like you take a different approach to reserving some of your peers.",
+      "speaker": "Saul Martinez, HSBC (analyst)",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  }
+}

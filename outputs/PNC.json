@@ -1,0 +1,79 @@
+{
+  "ticker": "PNC",
+  "bank_name": "PNC Financial",
+  "call_date": "April 15, 2026",
+  "headline_metrics": {
+    "eps": "$4.13 per common share ($4.32 adjusted for integration costs)",
+    "revenue": "$6.2 billion, up $94 million or 2% sequentially",
+    "nii": "$4.0 billion, up $230 million or 6% sequentially",
+    "cet1": "10.1% (estimated), down 50 bps from year-end 2025",
+    "nco_rate": "Net charge-offs $253 million; NCO ratio 24 bps excluding acquired charge-offs",
+    "roe_rotce": "Finished 2025 at approximately 18% ROTCE; expected back to ~18% in Q4 2026"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NIM was 2.95%, up 11 bps sequentially, and management expects to exceed 3% in the second half driven mainly by fixed-rate asset repricing; full-year NII is guided up approximately 14.5%.",
+      "stance": "expanding",
+      "quote": "Our net interest margin was 2.95%, an increase of 11 basis points.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit quality remained strong with NPL and delinquency ratios improving both sequentially and year over year; NPLs were 0.62% of loans, down from 0.67%, and the linked-quarter balance growth was entirely from FirstBank.",
+      "stance": "stable",
+      "quote": "Our NPL and delinquency ratios each improved on both a linked-quarter and year-over-year basis, reflecting the strong credit quality we continue to see across our portfolio, and the linked-quarter growth in balances was entirely attributable to the addition of FirstBank.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "PNC said it had already reserved heavily for office CRE and is 'through it', and CRE balances reached an inflection point with growth of roughly $100 million; the total allowance was $5.5 billion or 1.52% of loans, with provision driven by loan growth rather than a CRE build.",
+      "stance": "flat",
+      "quote": "Remember when we highlighted our real estate book—we said we were worried about office, we are through it, we reserved a lot of it.",
+      "speaker": "Bill Demchak, CEO",
+      "confidence": "medium",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Total rate paid on interest-bearing deposits fell 18 bps to 1.96% on lower rates; with no Fed cuts expected, management sees deposit costs as fairly steady, rising perhaps 1-2 bps from back-book repricing rather than competition.",
+      "stance": "stable",
+      "quote": "If the Fed does not cut, which is our expectation, deposit costs are fairly steady through the second quarter and then, by our estimates, maybe go up 1 or 2 basis points.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "PNC returned $1.4 billion to shareholders ($700 million each dividends and buybacks), expects quarterly repurchases of $600-700 million, and anticipates a ~10% RWA reduction (worth close to a point of capital) under Basel III, with plans to return more capital than in prior years.",
+      "stance": "increasing",
+      "quote": "During the quarter, we returned $1.4 billion of capital to shareholders. Common dividends and share repurchases were approximately $700 million each, and we continue to expect quarterly repurchases to be in the range of $600 million to $700 million going forward.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Average loans grew $23 billion or 7% sequentially, a three-year high in organic growth, with $15 billion from the FirstBank acquisition and $14 billion of legacy organic growth; full-year loans are guided up ~11% but back-half growth is expected to moderate from Q1/Q2 levels.",
+      "stance": "accelerating",
+      "quote": "On a spot basis, loans increased $29 billion, or 9% from year-end, including $15 billion from the FirstBank acquisition and $14 billion of growth in legacy The PNC Financial Services Group, Inc. loans.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management's base case assumes ~1.9% GDP growth, unemployment drifting to 4.6%, and no Fed rate cuts in 2026; they noted weak confidence surveys but said actual client activity and spending are at odds with that, with spending accelerating.",
+      "stance": "constructive",
+      "quote": "When you look through spending patterns, growth in savings, activity levels, loan growth—what we see day to day in our business is almost at complete odds with the surveys you see on confidence.",
+      "speaker": "Bill Demchak, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Chris McGratty (KBW) pressed on where NDFI/private-credit risk ranks in PNC's wall of worry; Demchak forcefully dismissed it, saying it is 'not even on the curve' and contrasting it with real concerns like trucking and fuel-dependent borrowers.",
+      "stance": "deflected NDFI/private-credit risk fears",
+      "quote": "It is not even on the curve. If you go through that whole bucket, the riskiest piece in the whole thing is that little $5 billion slice that is to REITs, leasing, and this and that.",
+      "speaker": "Bill Demchak, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "ticker": "WFC",
+  "bank_name": "Wells Fargo",
+  "call_date": "April 14, 2026",
+  "headline_metrics": {
+    "eps": "diluted EPS up 15% year over year (includes $0.04 of discrete tax benefits)",
+    "revenue": "total revenue up 6% year over year",
+    "nii": "net interest income up 5% year over year; down $235 million / 2% sequentially; 2026 guidance held at ~$50 billion +/-",
+    "cet1": "10.3% (within 10%-10.5% target range)",
+    "nco_rate": "net charge-off ratio 45 bps (stable YoY); commercial 24 bps, consumer 78 bps",
+    "roe_rotce": "ROTCE roughly 15% currently, targeting 17%-18% medium-term"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NIM fell 13 bps sequentially driven by Markets balance sheet growth, rising interest-bearing deposits, and lower rates; management expects additional but lessening margin compression next quarter and retained full-year NII guidance of ~$50 billion +/-.",
+      "stance": "compressing",
+      "quote": "You will see a little bit more compression from the first two drivers, but it will be less as we go into the second quarter.",
+      "speaker": "Michael Santomassimo, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Net charge-off ratio was stable at 45 bps year over year with consumer NCOs down 8 bps and improved early-stage delinquencies; commercial NCOs rose modestly to 24 bps, partly from an isolated fraud loss, and management sees no systemic weakness.",
+      "stance": "stable",
+      "quote": "We continue to closely monitor our portfolios for signs of weakness but have not observed recent deterioration or meaningful shifts in trends.",
+      "speaker": "Michael Santomassimo, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "Allowance for credit losses rose modestly overall from higher C&I and auto balances, but was partially offset by lower allowance specifically for commercial real estate office (and credit card), indicating a reserve release on office CRE driven by improved/declining exposure there.",
+      "stance": "releasing",
+      "quote": "A modest increase in our allowance for credit losses for loans was driven by higher commercial and industrial and auto loan balances, largely offset by lower allowance for commercial real estate office and credit card loans.",
+      "speaker": "Michael Santomassimo, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Deposit mix is shifting toward higher-cost interest-bearing balances (especially commercial) following the asset cap removal, pressuring NII ex-Markets, but management says they are not leaning on price to grow and deposit pricing competition is not unusual.",
+      "stance": "rising",
+      "quote": "Those deposits are priced where the market is, which is competitive, but we are not leaning in on price to grow there.",
+      "speaker": "Michael Santomassimo, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "Wells returned $5.4 billion to shareholders including $4 billion of buybacks, ended at CET1 of 10.3% with significant excess capital, and views proposed Basel III rules as constructive with RWAs potentially down ~7% and G-SIB staying around 1.5%.",
+      "stance": "increasing",
+      "quote": "And finally, we returned 5.4 billion dollars to shareholders in the first quarter, including 4 billion dollars in common stock repurchases, while continuing to operate with significant excess capital.",
+      "speaker": "Charles Scharf, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Period-end loans grew 11% year over year, topping $1 trillion, driven by organic growth across commercial and consumer portfolios; management said full-year average loan growth could exceed the prior mid-single-digit assumption if demand holds, and is focused on organic rather than acquisition-driven growth.",
+      "stance": "accelerating",
+      "quote": "Average loans grew 4% in the first quarter from the beginning of the year, and if demand remains strong, average loan growth could be higher than the mid-single-digit increase we had previously assumed.",
+      "speaker": "Michael Santomassimo, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management sees a resilient but bifurcated consumer with lower-income households more exposed to higher rates and energy prices, an orderly cooling labor market, and corporate clients approaching the year cautiously; they expect some economic impact from energy prices but feel good about where customers stand.",
+      "stance": "cautious",
+      "quote": "it is likely there will be some economic impact based on what has already occurred, but there are both risks and potential mitigants, so it is hard to predict the ultimate impact.",
+      "speaker": "Charles Scharf, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Ebrahim Poonawala of Bank of America pushed back that the 17%-18% ROTCE target looks tough given margin pressure and may have been too aggressive; management firmly defended the path, citing multiple organic growth drivers and confidence the target is achievable.",
+      "stance": "ROTCE target skepticism rebuffed",
+      "quote": "The path to the 17% to 18% ROTCE is looking quite tough given what is happening with the margin.",
+      "speaker": "Ebrahim Poonawala, Bank of America",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  }
+}

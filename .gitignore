@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Don't commit/republish full transcripts (Motley Fool ToS) -- they're a local cache
+transcripts/
+
+# Unpublished blog drafts -- keep these private until the post launches
+outputs/blog_draft_*.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/

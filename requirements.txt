@@ -1,0 +1,3 @@
+# The only third-party dependency, used by extract.py to call Claude.
+# fetch.py and compare.py are standard-library only.
+anthropic>=0.40

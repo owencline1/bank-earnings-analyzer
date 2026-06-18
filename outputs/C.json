@@ -1,0 +1,79 @@
+{
+  "ticker": "C",
+  "bank_name": "Citigroup",
+  "call_date": "2026-04-14",
+  "headline_metrics": {
+    "eps": "$3.06",
+    "revenue": "$24.6 billion, up 14%",
+    "nii": "NII ex-Markets up 7%",
+    "cet1": "12.7%",
+    "nco_rate": "U.S. Cards NCL rate guided 4%-4.5% for FY2026; net credit losses declined 11%",
+    "roe_rotce": "ROTCE of 13.1%"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NII ex-Markets was up 7% in Q1, helped partly by FX, and management reaffirmed full-year guidance of approximately 5%-6% growth anchored by mid-single-digit loan and deposit growth driven by client activity.",
+      "stance": "held",
+      "quote": "On NII, what we guided for the year—on the deck—is 5% to 6% NII ex Markets growth, anchored by mid-single-digit growth for both loans and deposits.",
+      "speaker": "Gonzalo Luchetti, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Card credit performance improved with net credit losses down 11% and delinquencies declining in a prime-weighted portfolio, while corporate net credit losses and nonaccruals remained low; management guided U.S. Cards NCL rate to 4%-4.5%.",
+      "stance": "improving",
+      "quote": "With our portfolio heavily weighted to prime, delinquencies and credit losses declined and are well in line with expectations.",
+      "speaker": "Jane Fraser, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "Citi did not discuss commercial real estate or office CRE specifically; reserve commentary centered on a firm-wide net ACL build of $597 million reflecting a downside-skewed macro scenario, not CRE.",
+      "stance": "not discussed",
+      "quote": "",
+      "speaker": "",
+      "confidence": "low",
+      "verbatim_ok": null
+    },
+    "deposit_costs": {
+      "summary": "Management described deposit betas as quite stable, citing pricing discipline and the strength of its value proposition, with deposit growth driven by client activity (Services up 16%, Wealth up 4%).",
+      "stance": "stable",
+      "quote": "Pricing discipline helps—betas are quite stable for us, a proof that our value proposition is performing and how embedded we are with clients, our global network on Services, and the quality of our advice and engagement on the Wealth business.",
+      "speaker": "Gonzalo Luchetti, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "Citi executed a record $6.3 billion in buybacks, nearing completion of its $20 billion plan, ended at 12.7% CET1, and signaled more capital return to come with details at Investor Day while holding a 100-110bp management buffer.",
+      "stance": "increasing",
+      "quote": "another piece goes into the buybacks that we executed in the quarter, which are a high watermark at $6.3 billion. There will be more to come as we go into Investor Day.",
+      "speaker": "Gonzalo Luchetti, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Loans ex-Markets grew about 5% in line with guidance, driven by client activity in Wealth, U.S. Cards and Services; management was emphatic that growth is purely organic and that no acquisitions are being pursued.",
+      "stance": "steady",
+      "quote": "In terms of loans, ex Markets, we are growing at about 5%, which is in line with our guidance. You can see that coming through in Wealth, in U.S. Cards, and also in Services with export financing and working capital. Most of the growth is driven by client activity.",
+      "speaker": "Gonzalo Luchetti, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management was cautious on the macro backdrop, citing Middle East conflict impacts, rising inflation risk and potentially more restrictive monetary policy, and reflected this by skewing reserves further to a downside scenario with ~7% unemployment.",
+      "stance": "cautious",
+      "quote": "And inflation is now a greater risk to growth and will likely cause central banks to lean towards more restrictive monetary policies.",
+      "speaker": "Jane Fraser, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Mike Mayo pressed Fraser to be unequivocal that Citi is not pursuing any acquisition despite numerous press articles; Fraser flatly reaffirmed the firm is focused solely on organic growth.",
+      "stance": "M&A pushback / organic-only",
+      "quote": "I am always transparent. I am always straightforward with you. I want to be crystal clear: we are not interested in anything other than organic growth.",
+      "speaker": "Jane Fraser, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  }
+}

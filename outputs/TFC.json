@@ -1,0 +1,79 @@
+{
+  "ticker": "TFC",
+  "bank_name": "Truist Financial",
+  "call_date": "April 17, 2026",
+  "headline_metrics": {
+    "eps": "$1.09 per diluted share (up 25% YoY from $0.87)",
+    "revenue": "$5.2 billion (up 5.1% YoY, down 1.9% QoQ)",
+    "nii": "decreased 2.8% QoQ, or $105 million; full-year 2026 growth guided to 2%-3% (down from 3%-4%)",
+    "cet1": "10.8% (stable vs. prior quarter)",
+    "nco_rate": "61 basis points (up 4 bps QoQ); 2026 guidance ~55 bps",
+    "roe_rotce": "ROTCE 13.8% (up 150 bps YoY)"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NII fell 2.8% QoQ on two fewer days and seasonal deposit mix; full-year 2026 NII growth guidance was cut to 2%-3% from 3%-4% because the Fed funds rate is now expected to remain unchanged. NIM dipped 5 bps to 3.02% but full-year 2026 average NIM is still expected to exceed 2025's 3.03%.",
+      "stance": "lowered",
+      "quote": "For full year 2026, we now expect net interest income to increase 2% to 3% compared with our prior expectation of 3% to 4% growth.",
+      "speaker": "Michael Maguire, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Asset quality remained strong; net charge-offs rose 4 bps QoQ to 61 bps and nonperforming loans rose 2 bps to 50 bps, with the consumer NPL increase driven by a change in indirect auto nonaccrual criteria rather than credit deterioration. Full-year NCO guidance unchanged at about 55 bps.",
+      "stance": "stable",
+      "quote": "The increase in consumer nonperforming loans was primarily due to a change in the nonaccrual criteria for certain indirect auto loans, which we disclosed in our 10-K rather than any deterioration in underlying credit trends.",
+      "speaker": "Michael Maguire, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "Management did not disclose a specific CRE reserve build, release, or flat action this quarter; CRE was mentioned only as a contributor to wholesale loan growth and as a portfolio that improved within nonperforming loans. No explicit office CRE reserve commentary was given.",
+      "stance": "not discussed",
+      "quote": "",
+      "speaker": "",
+      "confidence": "low",
+      "verbatim_ok": null
+    },
+    "deposit_costs": {
+      "summary": "Average interest-bearing deposit costs fell 14 bps QoQ to 2.09% and total deposit costs fell 9 bps to 1.55%, though management flagged a competitive, yield-seeking environment with cumulative betas ticking up (IB beta 45% to 46%, total 30% to 31%).",
+      "stance": "falling",
+      "quote": "Average interest-bearing deposit costs declined 14 basis points linked quarter to 2.09% and average total deposit costs declined 9 basis points to 1.55%.",
+      "speaker": "Michael Maguire, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "Truist raised its full-year 2026 buyback target to roughly $5 billion from $4 billion (after $1.1 billion repurchased in Q1, targeting $1.2 billion in Q2), with CET1 stable at 10.8%; the increase was driven by capital planning rather than Basel III, which could cut RWAs 9%-11%.",
+      "stance": "increasing",
+      "quote": "We are targeting repurchases of $1.2 billion in the second quarter and approximately $5 billion in 2026, compared with our previous expectation for $4 billion of repurchases for full year 2026.",
+      "speaker": "Michael Maguire, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Average loans rose 0.7% QoQ to $327 billion, driven by 1.8% commercial growth offset by a 0.9% consumer decline; management reaffirmed organic 3%-4% average loan growth for 2026 and stated M&A is not a priority, so growth is organic.",
+      "stance": "steady",
+      "quote": "Based on our current pipeline and economic outlook, we continue to expect average loan growth of approximately 3% to 4% in 2026.",
+      "speaker": "Michael Maguire, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management framed the environment as competitive with higher-for-longer rates (no Fed cuts now assumed in 2026), citing net in-migration into its markets as a tailwind while acknowledging deposit-gathering pressure; overall tone was constructive on momentum but cautious on rates.",
+      "stance": "balanced",
+      "quote": "if rates higher for longer is a tough operating environment for deposits",
+      "speaker": "William Rogers, Chairman and CEO",
+      "confidence": "medium",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Erika Najarian (UBS) and Mike Mayo (Wells Fargo) pressed Bill Rogers on a Bloomberg article speculating Truist could be a sale/merger target and on succession; Rogers dismissed the rumor and repeatedly stated M&A is not a priority, emphasizing the standalone plan.",
+      "stance": "M&A/sale-rumor pushback",
+      "quote": "We've been really clear on the M&A front, Mike. I mean I don't know how to be more clear that, that's just not a priority for us.",
+      "speaker": "William Rogers, Chairman and CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  }
+}
