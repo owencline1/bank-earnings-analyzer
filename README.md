@@ -10,8 +10,20 @@ topic), and a divergence report that ranks the topics by how split the banks are
 and calls out the odd ones out. Every supporting quote is checked **word-for-word**
 against the source transcript, so a made-up quote can't reach your writeup.
 
-Built for Q1 2026 across 7 banks (JPM, BAC, WFC, C, USB, PNC, TFC), but the bank
-list and quarter are just config — see [Run a new quarter](#run-a-new-quarter).
+Run live on Q1 and Q2 2026 across 7 banks (JPM, BAC, WFC, C, USB, PNC, TFC); the
+bank list and quarter are just config — see [Run a new quarter](#run-a-new-quarter).
+
+## Latest research — Q2 2026 earnings season
+
+- **[Coverage initiation deck](deck/initiation-deck-2026-Q2.md)** — ratings on all
+  7 names (sector-relative), full comp table, sector view. The flagship artifact.
+- **[Q2 2026 cross-read](outputs/cross_read.md)** — the 7-bank divergence report
+  on live Q2 results (52 management quotes, all verified verbatim).
+- **[Earnings-week writeup](outputs/Q2-2026-earnings-week-writeup.md)** — the
+  consolidated read of the week the seven reported (Jul 14–17), including an
+  honest ledger of what was captured when.
+- **[First-reads](outputs/first-reads/)** — same-day and post-print reaction notes
+  written as the numbers dropped.
 
 ---
 
@@ -25,7 +37,8 @@ list and quarter are just config — see [Run a new quarter](#run-a-new-quarter)
 ```
 
 1. **`fetch.py`** — downloads each transcript from its URL and saves clean text to
-   `transcripts/<TICKER>.txt`. Standard library only.
+   `transcripts/<TICKER>.txt`. Standard library only. Two transcript sources are
+   supported (Motley Fool and Benzinga), chosen automatically by the URL's host.
 2. **`extract.py`** — sends each transcript to Claude and forces a structured
    analysis against a fixed schema (the same 8 dimensions for every bank), then
    re-checks every quote verbatim against the transcript. Writes
@@ -122,7 +135,8 @@ builds the bank list from the matching URL block.
 Claude session can:
 
 1. **Discover the 7 URLs** via web search — one search per bank,
-   `"<Bank> (TICKER) Q2 2026 earnings call transcript motley fool"`. Confirm each
+   `"<Bank> (TICKER) Q2 2026 earnings call transcript"` scoped to fool.com and
+   benzinga.com (both are supported; whichever posts first wins). Confirm each
    result URL slug contains the ticker *and* the quarter (e.g.
    `.../jpmorgan-jpm-q2-2026-...`) before trusting it.
 2. **Write them into `urls.json`** — add a `"Q2 2026": { ... }` block under
@@ -165,11 +179,17 @@ Read these before assuming it's plug-and-play:
   them for you (see [Run a new quarter](#run-a-new-quarter-with-claude)), and the
   fetch-stage validation gate rejects a wrong-bank or wrong-quarter link — but
   auto-found URLs should still get a glance before a published writeup.
-- **The scraper is source-specific and can break.** `fetch.py` is tuned to one
-  transcript provider's page layout (it looks for a specific HTML container). If
-  that site changes its markup, fetching breaks and the script will fail loudly
-  rather than save garbage — at which point `fetch.py` needs updating. A
-  different transcript source needs a different parser.
+- **The scraper is source-specific and can break.** `fetch.py` is tuned to two
+  transcript providers' page layouts. If either site changes its markup, fetching
+  breaks and the script fails loudly rather than saving garbage — at which point
+  `fetch.py` needs updating. A new transcript source needs a new parser.
+- **Sometimes a transcript never publishes free.** In Q2 2026, neither supported
+  source carried Wells Fargo's or Citigroup's call. The documented fallback: use
+  the bank's SEC 8-K earnings release as the source text instead, with an explicit
+  provenance header in the text file and a `source` field in the output JSON, and
+  let the cross-read honestly report the Q&A dimension as unavailable. Numbers and
+  written management commentary survive; call color doesn't. Never present a
+  release-based read as a call-based one.
 - **The analysis is a model's reading, not ground truth.** The verbatim-quote
   check guarantees quotes are *real*, not that the *summary or stance* is the only
   fair interpretation. Treat the output as a fast, consistent first pass a human
