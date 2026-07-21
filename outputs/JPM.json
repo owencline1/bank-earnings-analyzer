@@ -1,79 +1,79 @@
 {
-  "ticker": "JPM",
-  "bank_name": "JPMorgan Chase",
-  "call_date": "April 14, 2026",
+  "call_date": "2026-07-14",
   "headline_metrics": {
-    "eps": "$5.94 diluted",
-    "revenue": "$50.5 billion (up 10% YoY)",
-    "nii": "Q1 not stated as single figure; FY2026 total NII guided to approximately $103 billion, NII ex Markets approximately $95 billion",
-    "cet1": "14.3% (down 30 bps QoQ)",
-    "nco_rate": "Card net charge-off rate outlook approximately 3.4%",
-    "roe_rotce": "ROTCE of 23%"
+    "eps": "$6.14",
+    "revenue": "up 15% YoY",
+    "nii": "NII X markets ~$96.5B (FY2026 guide); total NII ~$105.5B (FY2026 guide)",
+    "roe_rotce": "ROTCE 23%",
+    "cet1": "14.1% (standardized)",
+    "nco_rate": "Card NCO rate ~3.2% (FY2026 guide); net charge-offs $2.4B in Q2"
   },
   "dimensions": {
     "nim_nii": {
-      "summary": "Management held NII ex Markets guidance at about $95 billion and lowered total NII to about $103 billion as Markets NII falls to about $8 billion, driven predominantly by lower rates; asset sensitivity offset was small because rate changes were backdated.",
-      "stance": "held",
-      "quote": "We now expect total NII to be approximately $103 billion as a function of market NII decreasing to about $8 billion, predominantly due to rates, which we expect will be primarily offset in NIR.",
-      "speaker": "Jeremy Barnum, CFO",
+      "summary": "JPM raised its full-year 2026 NII X markets guide from $95B to ~$96.5B and total NII to ~$105.5B, with markets NII guided higher to ~$9B. The primary driver of the upward revision was stronger deposit balances (both wholesale and consumer) and a favorable mix shift, with higher short- and long-end rates providing a secondary boost. Management also noted consumer deposit betas have outperformed models, adding incremental sensitivity.",
+      "stance": "raised",
+      "quote": "just mechanically in terms of the drivers of the upward revision, the biggest single factor is deposit balances, I would say across both wholesale and consumer both the overall quantum of it, but also makes shift inside of that in favor of slightly higher margin overall then rates are a little bit higher than when we previously guided both in the short end and in the back end.",
+      "speaker": "Jeremy Barnum, Chief Financial Officer",
       "confidence": "high",
       "verbatim_ok": true
     },
     "credit_normalization": {
-      "summary": "Consumer credit metrics look consistent with prior trends and fundamentally healthy, with the card NCO rate outlook held at approximately 3.4%; management attributes resilience mainly to a strong labor market.",
-      "stance": "stable",
-      "quote": "Early roll rates, delinquency rates, cash buffer, spend, discretionary spend, non-discretionary spend, it all looks consistent with prior trends and fundamentally, healthy.",
-      "speaker": "Jeremy Barnum, CFO",
+      "summary": "Credit performance came in better than expected: JPM reported $2.4B in net charge-offs with a $149M reserve build, and revised its full-year card NCO rate guide down to ~3.2%. Delinquencies are running a little lower than expected across FICO cohorts, and management attributed the resilience squarely to a still-solid labor market.",
+      "stance": "improving",
+      "quote": "we now expect the card net charge-off rate to be approximately 3.2% reflecting better than expected consumer credit performance.",
+      "speaker": "Jeremy Barnum, Chief Financial Officer",
       "confidence": "high",
       "verbatim_ok": true
     },
     "cre_reserves": {
-      "summary": "JPM recorded a net reserve build of $191 million this quarter; weights were left unchanged and a lower weighted-average unemployment assumption created consumer tailwinds, with small builds in wholesale from loan growth and idiosyncratic downgrades. CRE/office was not specifically called out; management consciously decided not to add downside skew despite Middle East risks.",
-      "stance": "building",
-      "quote": "we actually did not change the weights this quarter.",
-      "speaker": "Jeremy Barnum, CFO",
+      "summary": "CRE reserves were not specifically broken out or discussed in the call. The firm reported a modest net reserve build of $149M at the firm-wide level, but management did not attribute any portion to CRE or office CRE specifically, nor did analysts press on it.",
+      "stance": "not discussed",
+      "quote": "",
+      "speaker": "",
+      "confidence": "low",
+      "verbatim_ok": null
+    },
+    "deposit_costs": {
+      "summary": "Management noted that consumer deposit betas have outperformed (i.e., come in better than modeled), meaning deposit costs have risen less than expected. Yield-seeking flows remain a factor and a modest risk in a higher-for-longer rate environment, but overall deposit cost dynamics are in line with or better than prior expectations. Management flagged convexity risk if rates move meaningfully higher but said that inflection point has not yet arrived.",
+      "stance": "peaking",
+      "quote": "our actual sensitivity is a little bit more than the ear suggests right now because of the outperformance of the consumer betas relative to the model and that difference is probably disproportionately in the front end.",
+      "speaker": "Jeremy Barnum, Chief Financial Officer",
       "confidence": "medium",
       "verbatim_ok": true
     },
-    "deposit_costs": {
-      "summary": "Deposit competition remains intense; interest-bearing deposit costs fell with the rate curve, and management expects the margin to stay roughly the same with limited room to price down the already-low-cost low-beta portion of the franchise.",
-      "stance": "falling",
-      "quote": "The margin would be about what it is today, give or take, a couple of basis points up or down.",
-      "speaker": "James Dimon, Chairman & CEO",
-      "confidence": "high",
-      "verbatim_ok": true
-    },
     "capital_return": {
-      "summary": "CET1 was 14.3% with about $40 billion of excess capital; management prefers to deploy capital serving clients over buybacks and would rather repurchase shares only at a real discount, while warning Basel III endgame and G-SIB reproposals would raise JPM's required capital.",
+      "summary": "The Board intends to raise the quarterly dividend to $1.65/share in Q3 2026. CET1 stood at 14.1%, down 20 bps QoQ as net income was more than offset by higher RWA and capital distributions. Management indicated they have excess capital but are increasingly inclined to deploy it organically or inorganically rather than via buybacks at current elevated valuations (~3x tangible book), and pushed back on the concept of buybacks as 'returning money to shareholders.' On regulation, Dimon and Barnum advocated strongly for fixing Basel III methodology flaws (double-count in market risk and operating risk capital, G-SIB surcharge calibration, short-term wholesale funding treatment).",
       "stance": "steady",
-      "quote": "Our preferred way of using capital is not buying back stock today. We're doing it, fair market value and all that, but I'd rather buy back stock when we think it's a real discount, and the ongoing shareholder gets the benefit of buying it cheap.",
-      "speaker": "James Dimon, Chairman & CEO",
+      "quote": "As you saw in our CCAR press release in June, the Board intends to increase the quarterly dividend to $1.65 per share effective in the third quarter.",
+      "speaker": "Jeremy Barnum, Chief Financial Officer",
       "confidence": "high",
       "verbatim_ok": true
     },
     "loan_growth": {
-      "summary": "Overall loan growth is modest outside Card (expected ~6% or a little more); this quarter's strong balance-sheet growth was primarily Markets-driven, low-density secured financing, with acquisition financing and data-center lending as opportunistic drivers held on balance sheet.",
-      "stance": "soft",
-      "quote": "But to a significant degree, some of that's going to get driven by acquisition financing, that we hold on balance sheet for a while, that some of that's a little bit of a driver this quarter as well.",
-      "speaker": "Jeremy Barnum, CFO",
-      "confidence": "high",
+      "summary": "Loan growth was organic and broad-based: AWM cited higher loan balances, CCB highlighted deposit and loan balance growth, and wholesale deposit growth was described as strong and ahead of expectations partly because lending is creating deposits (especially in the MDFI/data center space). Management explicitly framed organic growth as the primary capital deployment priority across every business line. No acquisition-driven loan growth was cited.",
+      "stance": "steady",
+      "quote": "some of it is also the kind of lending environment, particularly the sort of MDFI space and a lot of the data center stuff like however you look at it, you have a little bit of the dynamic of loans creating deposits and that's going to disproportionately show up in wholesale.",
+      "speaker": "Jeremy Barnum, Chief Financial Officer",
+      "confidence": "medium",
       "verbatim_ok": true
     },
     "macro_outlook": {
-      "summary": "Management views the consumer and economy as resilient but cautions that if a credit cycle comes it will be worse than people expect, with stress on leveraged companies refinancing; not deemed systemic but management is preparing for recession/stagflation.",
-      "stance": "cautious",
-      "quote": "if there's a credit cycle, I do expect it will be worse than people think relative to the scenario. It's not a disaster. We're used to the credit cycles. We'll be big boys about it. But asset prices will go down, credit spreads will going down. People may get a little nervous about some of those things.",
-      "speaker": "James Dimon, Chairman & CEO",
+      "summary": "Management described the current environment as 'getting close to as good as it gets' — healthy labor market, strong consumer spend, resilient credit — but explicitly cautioned they don't know how long it will last. Dimon pointed to geopolitical risks, elevated global deficits, and a complex, 'exuberant' market. Barnum flagged potential consumer fragility if rates rise meaningfully, noting the convexity risk in deposit betas and a cohort experiencing negative real wage growth as watch areas.",
+      "stance": "balanced",
+      "quote": "It's getting close to as good as it gets. We just don't know how long it's going to last.",
+      "speaker": "Jamie Dimon, Chairman and CEO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "notable_qa": {
-      "summary": "Gerard Cassidy pressed on how JPM would cut expenses over the next three quarters to hit the ~$105 billion guide; Barnum pushed back that the firm does not run around finding expenses to cut and that the $105 billion is an outcome of business results, with Dimon adding they would happily spend more if every quarter were this strong.",
-      "stance": "expense-guidance pushback",
-      "quote": "The $105 billion is not a promise, it's an outcome of business results.",
-      "speaker": "James Dimon, Chairman & CEO",
+      "summary": "Mike Mayo pressed management on why buybacks make sense at ~3x tangible book when the environment could deteriorate, and whether negative operating leverage was acceptable. Dimon pushed back sharply, rejecting the framing of buybacks as 'returning money to shareholders,' explaining it is an investment decision, and that with global capital deployment opportunities (infrastructure, AI, Europe, organic growth) the firm would rather deploy excess capital productively. He also flatly dismissed perpetual operating leverage as a 'crazy notion' for a firm already generating exceptional returns.",
+      "stance": "defensive-pushback",
+      "quote": "buying back stock is not returning money to shareholders. You're making an investment decision, you're not making a return money to shareholders decisions.",
+      "speaker": "Jamie Dimon, Chairman and CEO",
       "confidence": "high",
       "verbatim_ok": true
     }
-  }
+  },
+  "ticker": "JPM",
+  "bank_name": "JPMorgan Chase"
 }

@@ -7,9 +7,11 @@ OUT = os.path.join(HERE, "outputs")
 TR = os.path.join(HERE, "transcripts")
 
 def canon(s):
+    # keep in sync with _canon() in extract.py (punctuation-insensitive matching)
     s = s.replace("’","'").replace("‘","'")
     s = s.replace("“",'"').replace("”",'"')
     s = s.replace("—","-").replace("–","-").replace("‒","-")
+    s = re.sub(r"[^\w\s$%]"," ", s)
     return re.sub(r"\s+"," ", s).strip().lower()
 
 total=ok=empty=bad=0

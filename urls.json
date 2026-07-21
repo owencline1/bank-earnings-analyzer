@@ -1,0 +1,24 @@
+{
+  "_comment": "Transcript source URLs, keyed by quarter. This is DATA, not code -- a future Claude (or you) just adds the next quarter's block and points active_quarter at it. banks.py reads active_quarter and builds the bank list from the matching block. See README 'Run a new quarter (with Claude)'. Q2 2026 note: Motley Fool lagged the July prints, so Q2 uses Benzinga transcripts (fetch.py supports both hosts). WFC and C stay TODO: as of 2026-07-21 neither transcript is freely published anywhere parsable (Benzinga and Fool both skipped them; Seeking Alpha/Investing.com are login-walled). Their transcripts/<T>.txt are the 8-K EX-99.1 releases with a provenance header (placed manually, NOT via fetch.py) so extract/compare cover 7/7 -- if a free transcript posts, paste the URL here and re-run fetch/extract/compare for that ticker to upgrade it.",
+  "active_quarter": "Q2 2026",
+  "quarters": {
+    "Q1 2026": {
+      "JPM": "https://www.fool.com/earnings/call-transcripts/2026/04/21/jpmorgan-jpm-q1-2026-earnings-call-transcript/",
+      "BAC": "https://www.fool.com/earnings/call-transcripts/2026/04/15/bofa-bac-q1-2026-earnings-call-transcript/",
+      "WFC": "https://www.fool.com/earnings/call-transcripts/2026/04/14/wells-fargo-wfc-q1-2026-earnings-call-transcript/",
+      "C": "https://www.fool.com/earnings/call-transcripts/2026/04/14/citigroup-c-q1-2026-earnings-call-transcript/",
+      "USB": "https://www.fool.com/earnings/call-transcripts/2026/04/16/us-bancorp-usb-q1-2026-earnings-call-transcript/",
+      "PNC": "https://www.fool.com/earnings/call-transcripts/2026/04/15/pnc-pnc-q1-2026-earnings-call-transcript/",
+      "TFC": "https://www.fool.com/earnings/call-transcripts/2026/04/17/truist-tfc-q1-2026-earnings-call-transcript/"
+    },
+    "Q2 2026": {
+      "JPM": "https://www.benzinga.com/news/26/07/60449115/jpmorgan-chase-reports-q2-2026-results-full-earnings-call-transcript",
+      "BAC": "https://www.benzinga.com/news/26/07/60442721/bank-america-q2-2026-earnings-call-transcript",
+      "WFC": "TODO",
+      "C": "TODO",
+      "USB": "https://www.benzinga.com/news/26/07/60505128/u-s-bancorp-q2-2026-earnings-call-transcript",
+      "PNC": "https://www.benzinga.com/news/26/07/60475847/transcript-pnc-financial-services-gr-q2-2026-earnings-conference-call",
+      "TFC": "https://www.benzinga.com/news/26/07/60521767/full-transcript-truist-finl-q2-2026-earnings-call"
+    }
+  }
+}

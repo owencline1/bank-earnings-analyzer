@@ -1,0 +1,79 @@
+{
+  "call_date": "2026-04-14",
+  "headline_metrics": {
+    "eps": "Diluted EPS +15% YoY",
+    "revenue": "+6% YoY",
+    "nii": "+5% YoY; -$235M / -2% QoQ",
+    "roe_rotce": "~15% ROTCE (current); target 17%-18%",
+    "cet1": "10.3%",
+    "nco_rate": "45 bps (stable YoY); commercial 24 bps; consumer 78 bps"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NII rose 5% YoY but fell $235M (2%) sequentially due to two fewer days and lower rates; NIM compressed 13 bps from Q4, driven by Markets balance sheet growth, higher interest-bearing deposit mix, and rate headwinds. Full-year 2026 NII guidance held at $50B ± with further modest margin compression expected in Q2 before moderating.",
+      "stance": "held",
+      "quote": "We are retaining our guidance of 50 billion dollars, plus or minus, of net interest income this year.",
+      "speaker": "Michael Santomassimo (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit quality remained stable with the net charge-off ratio flat YoY at 45 bps; consumer NCOs declined 8 bps YoY to 78 bps with improvements across consumer portfolios and net recoveries in residential mortgage, while commercial NCOs rose modestly to 24 bps driven by a single fraud-related incident. Management sees no systemic deterioration and views current portfolio strength as providing a buffer if macro conditions worsen.",
+      "stance": "stable",
+      "quote": "Credit performance remained strong, and our net charge-off ratio was stable from a year ago at 45 basis points.",
+      "speaker": "Charles Scharf (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "CRE office reserves were RELEASED in Q1 2026; the overall allowance for credit losses rose modestly, driven by higher commercial & industrial and auto loan balances, but this increase was partially offset by a reduction specifically in the CRE office and credit card reserve buckets. Management indicated losses in most of those portfolios have been minimal for a long time and the allowance is low and not changing materially.",
+      "stance": "releasing",
+      "quote": "A modest increase in our allowance for credit losses for loans was driven by higher commercial and industrial and auto loan balances, largely offset by lower allowance for commercial real estate office and credit card loans.",
+      "speaker": "Michael Santomassimo (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Deposit costs are rising at the margin as post-asset-cap removal drives faster growth in higher-cost interest-bearing commercial and consumer deposits; mix is shifting away from noninterest-bearing toward interest-bearing, putting pressure on NII ex-Markets. Management is not competing aggressively on price but acknowledges this mix shift is a headwind that will persist through the year.",
+      "stance": "rising",
+      "quote": "We have also grown deposits, and as we said when we provided our outlook last quarter, much of the growth was from interest-bearing deposits, particularly in our commercial businesses. As a reminder, when the asset cap was in place, these deposits were limited, and now that it has been lifted, we are successfully growing these deposits. While they are higher cost, they are important to our strategy of deepening relationships with our clients.",
+      "speaker": "Michael Santomassimo (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "Wells Fargo returned $5.4B to shareholders in Q1, including $4B in buybacks, with shares outstanding down 6% YoY; CET1 held at 10.3% within the 10%-10.5% target. Management views proposed Basel III rules as highly constructive—estimating ~7% RWA reduction—and signaled the CET1 target could be revised lower once rules are finalized, implying increased future capital return capacity.",
+      "stance": "increasing",
+      "quote": "We returned 5.4 billion dollars to shareholders in the first quarter, including 4 billion dollars in common stock repurchases, while continuing to operate with significant excess capital.",
+      "speaker": "Charles Scharf (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Loan growth was entirely organic; period-end loans rose 11% YoY surpassing $1 trillion for the first time since 2020, driven by commercial & industrial and consumer portfolios (ex-mortgage). Management raised the possibility that full-year average loan growth could exceed the prior mid-single-digit assumption if demand persists, noting revolver utilization has not yet increased—meaning additional upside is possible from core commercial clients.",
+      "stance": "accelerating",
+      "quote": "Period-end loan balances grew 11% from a year ago and exceeded 1 trillion dollars for the first time since 2020. Average loans increased 87.8 billion dollars, or 10%, from a year ago, driven by growth in commercial and industrial loans as well as growth across our consumer portfolios, except for residential mortgage.",
+      "speaker": "Michael Santomassimo (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management struck a cautious-but-not-alarmed tone: the labor market is cooling orderly, consumers remain resilient in aggregate but are increasingly bifurcated by income, and higher energy prices are expected to weigh on lower-income households and broader spending in H2 2026. Commercial clients are described as approaching the remainder of the year cautiously, and management acknowledged economic impact from current conditions is likely but unpredictable in magnitude.",
+      "stance": "cautious",
+      "quote": "it is likely there will be some economic impact based on what has already occurred, but there are both risks and potential mitigants, so it is hard to predict the ultimate impact.",
+      "speaker": "Charles Scharf (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Ebrahim Poonawala (BofA) pressed management directly on whether the 17%-18% ROTCE target was realistic given ongoing NIM compression and ROA dilution from the growing repo/Markets balance sheet. Both Scharf and Santomassimo pushed back forcefully, detailing specific business-by-business drivers (credit card vintage maturation, wealth fee growth, commercial banker adds, IB ramp) and Scharf stated categorically that nothing has changed in their confidence on the target.",
+      "stance": "constructive-pushback",
+      "quote": "We feel as confident as ever in that target. There is absolutely nothing that has changed. We do not have a business model where points of view like that should change quarter on quarter. The only thing that would create dramatic changes is if we thought we got something very wrong or if there was some huge event that we missed. None of that is the case.",
+      "speaker": "Charles Scharf (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  },
+  "ticker": "WFC",
+  "bank_name": "Wells Fargo"
+}

@@ -1,0 +1,79 @@
+{
+  "call_date": "2026-04-14",
+  "headline_metrics": {
+    "eps": "$5.94 (diluted)",
+    "revenue": "$50.5B (+10% YoY)",
+    "nii": "$103B total NII (FY2026 outlook); NII ex-Markets ~$95B",
+    "roe_rotce": "ROTCE 23%",
+    "cet1": "14.3% (standardized, -30 bps QoQ)",
+    "nco_rate": "~3.4% (Card, full-year guidance); $2.3B net charge-offs Q1"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "Management held NII ex-Markets guidance at ~$95B for FY2026, while total NII was guided to ~$103B (with Markets NII revised down to ~$8B due to lower rates, expected to be offset in non-interest revenue). Despite being asset sensitive with a $1.8B EAR, the removal of expected back-half rate cuts had only ~20 bps impact on the full-year average, producing no material upward revision to ex-Markets NII.",
+      "stance": "held",
+      "quote": "We continue to expect NII ex Markets to be about $95 billion. We now expect total NII to be approximately $103 billion as a function of market NII decreasing to about $8 billion, predominantly due to rates, which we expect will be primarily offset in NIR.",
+      "speaker": "Chief Financial Officer — Jeremy Barnum",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit costs of $2.5B included $2.3B in net charge-offs and a $191M net reserve build; the Card NCO rate guidance is held at ~3.4%. Consumer credit metrics (early roll rates, delinquencies, cash buffers, spend) were described as consistent with prior trends and fundamentally healthy, with the labor market cited as the key anchor—though management flagged that a credit cycle, if it arrives, will likely be worse than consensus expects.",
+      "stance": "stable",
+      "quote": "Early roll rates, delinquency rates, cash buffer, spend, discretionary spend, non-discretionary spend, it all looks consistent with prior trends and fundamentally, healthy.",
+      "speaker": "Chief Financial Officer — Jeremy Barnum",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "CRE reserves were not explicitly broken out as a standalone topic. The overall reserve build of $191M was modest; management noted wholesale builds tied to loan growth and idiosyncratic downgrades, a ~$110-150M consumer Home Lending reserve release on an HPI upward revision, and unchanged scenario weights. Management consciously chose NOT to add downside skew to scenario weights this quarter, concluding existing conservative bias was sufficient.",
+      "stance": "flat",
+      "quote": "Under the covers, there are some builds in wholesale as a function of loan growth and also some idiosyncratic downgrades here and there, nothing dramatic. But in the place that you would expect to see allowance build, you are seeing some.",
+      "speaker": "Chief Financial Officer — Jeremy Barnum",
+      "confidence": "medium",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Management described deposit margins as roughly stable with only modest basis-point variation expected. Deposit competition remains intense both externally and internally from higher-yielding alternatives, but the low-beta portion of the consumer franchise is already priced low. Consumer deposit costs were noted as declining modestly quarter-over-quarter as a function of the rate curve and CD repricing from the prior year.",
+      "stance": "stable",
+      "quote": "The margin would be about what it is today, give or take, a couple of basis points up or down. There are a lot of factors in there, like what kind of accounts you're opening, tax refunds and all that kind of stuff. But roughly the same for now.",
+      "speaker": "Chairman & Chief Executive Officer — James Dimon",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "CET1 fell 30 bps QoQ to 14.3% as capital distributions plus higher RWA exceeded net income; management estimates ~$40B of excess capital today. Management expressed a strong preference for deploying capital into client-serving businesses over buybacks, noting buybacks are less attractive unless shares trade at a meaningful discount. Basel III endgame and G-SIB reproposals are estimated to require a net ~4% CET1 increase for JPM (vs. a 5% reduction for peers), including ~$20B of additional G-SIB capital by 2028.",
+      "stance": "steady",
+      "quote": "Today, we measure around $40 billion. Obviously, that can change depending on ultimate rules and regulations. And we prefer to deploy the capital serving clients... Our preferred way of using capital is not buying back stock today. We're doing it, fair market value and all that, but I'd rather buy back stock when we think it's a real discount.",
+      "speaker": "Chairman & Chief Executive Officer — James Dimon",
+      "confidence": "high",
+      "verbatim_ok": false
+    },
+    "loan_growth": {
+      "summary": "Organic loan growth expectations are modest across most of the franchise: Card loans targeted at ~6%+ growth (organic, the most significant driver); Home Lending faces headwinds from First Republic portfolio roll-off (acquisition-related drag); Markets-driven wholesale loan growth (data-center lending, secured financing) is opportunistic. Balance sheet growth this quarter was primarily in Markets (low-risk-density, secured financing) and is largely seasonal, not a new trend. Management will walk away from loans if credit terms are unsatisfactory.",
+      "stance": "soft",
+      "quote": "In terms of the firm-wide overall outlook, I think, arguably the single most significant number is the what we said about Card loan growth expectations at Company Update, which is that we said we expected 6% or maybe a little bit more. and that hasn't really changed... In the rest of the franchise, it's really pretty modest growth overall. We actually have some headwinds in Home Lending as a result of some First Republic portfolio roll-off and stuff like that.",
+      "speaker": "Chief Financial Officer — Jeremy Barnum",
+      "confidence": "high",
+      "verbatim_ok": false
+    },
+    "macro_outlook": {
+      "summary": "Management described the consumer and small business as currently resilient—spend growth above last year's pace, healthy credit metrics, supported by a strong labor market and higher tax refunds—but struck a distinctly cautious tone on the cycle outlook, warning that a credit downturn will likely be worse than the market expects, with asset prices falling and credit spreads widening. Geopolitical risk (Middle East) was flagged as a potential catalyst for deal and economic disruption.",
+      "stance": "cautious",
+      "quote": "if there's a credit cycle, I do expect it will be worse than people think relative to the scenario. It's not a disaster. We're used to the credit cycles. We'll be big boys about it. But asset prices will go down, credit spreads will going down. People may get a little nervous about some of those things.",
+      "speaker": "Chairman & Chief Executive Officer — James Dimon",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Steven Chubak (Wolfe Research) pressed management on whether Basel III/G-SIB guidance contemplates mitigating RWA actions and potential SCB relief from removal of double-counting. Barnum was candid that this is not primarily an optimization story, flagged specific irrational outcomes in the proposal (high-yield repo collateral, advised lines), and made a pointed policy argument that the G-SIB surcharge creates a 'significant disincentive' to markets activity and risks undermining U.S. capital-market depth. Dimon piled on with blunt criticism of operational risk RWA as an 'academic exercise' with no real-world basis.",
+      "stance": "defensive-but-combative",
+      "quote": "I guess I would just make the point that we've often made publicly that the depth and breadth of U.S. capital markets is a key competitive national advantage. And regulatory capital rules that at the margin discourage a dynamic secondary market in the United States with active participation by banks is, in our view, sort of not great.",
+      "speaker": "Chief Financial Officer — Jeremy Barnum",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  },
+  "ticker": "JPM",
+  "bank_name": "JPMorgan Chase"
+}

@@ -1,0 +1,79 @@
+{
+  "call_date": "2026-04-17",
+  "headline_metrics": {
+    "eps": "$1.09 (+25% YoY)",
+    "roe_rotce": "ROTCE 13.8% (+150 bps YoY)",
+    "revenue": "$5.2B (+5.1% YoY, -1.9% QoQ)",
+    "nii": "Decreased 2.8% / $105M QoQ (taxable equivalent)",
+    "cet1": "10.8% (stable QoQ)",
+    "nco_rate": "61 bps (+4 bps QoQ)"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NIM fell 5 bps QoQ to 3.02%, and NII dropped 2.8% ($105M) primarily due to two fewer calendar days and seasonal deposit mix shifts. Full-year NII guidance was cut to 2%-3% growth from 3%-4%, driven by the removal of two expected Fed rate cuts; management expects NIM to remain roughly stable in Q2 before expanding in H2, and for full-year 2026 average NIM to exceed the 2025 average of 3.03%, though a 'mid-3-teens' NIM exit rate is no longer expected in 2026.",
+      "stance": "lowered",
+      "quote": "For full year 2026, we now expect net interest income to increase 2% to 3% compared with our prior expectation of 3% to 4% growth. The change in our outlook is primarily driven by our expectation that the federal funds rate will remain unchanged throughout 2026 compared with our previous expectation for two 25 basis point reductions, one in April and one in July.",
+      "speaker": "Michael Maguire (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Net charge-offs rose 4 bps QoQ to 61 bps, and nonperforming loans increased 2 bps QoQ to 50 bps, but management attributed the NPL rise to a nonaccrual criteria change for indirect auto loans—not underlying credit deterioration. Full-year NCO guidance remains unchanged at approximately 55 bps, and C&I and CRE nonperforming loans actually improved QoQ, suggesting broadly stable credit.",
+      "stance": "stable",
+      "quote": "The increase in consumer nonperforming loans was primarily due to a change in the nonaccrual criteria for certain indirect auto loans, which we disclosed in our 10-K rather than any deterioration in underlying credit trends. While this enhancement will result in higher reported nonperforming indirect auto loans over time, there's no impact to the cash flows or loss expectations over the lifetime earnings of these loans.",
+      "speaker": "Michael Maguire (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "CRE nonperforming loans actually improved quarter over quarter, and no explicit reserve build or release for CRE was announced. Management did provide expanded disclosure on the NDFI portfolio (12% of total loans), emphasizing structural protections and conservative underwriting, but made no specific statement about building or releasing CRE-specific loan-loss reserves this quarter.",
+      "stance": "flat",
+      "quote": "Nonperforming loans held for investment increased 2 basis points linked quarter to 50 basis points of total loans, driven by higher consumer and nonperforming loans, partially offset by improvement in C&I and CRE.",
+      "speaker": "Michael Maguire (CFO)",
+      "confidence": "medium",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Deposit costs fell for the quarter: average interest-bearing deposit costs declined 14 bps QoQ to 2.09% and total deposit cost declined 9 bps to 1.55%. However, management flagged ongoing competitive pressures and yield-seeking behavior among clients as headwinds, and noted that 'rates higher for longer' creates a tough deposit-gathering environment, suggesting further meaningful relief may be limited without rate cuts.",
+      "stance": "falling",
+      "quote": "Average interest-bearing deposit costs declined 14 basis points linked quarter to 2.09% and average total deposit costs declined 9 basis points to 1.55%.",
+      "speaker": "Michael Maguire (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "Truist significantly increased its capital return program, repurchasing $1.1B in Q1 and raising full-year 2026 buyback guidance to $5B from $4B, with $1.2B targeted in Q2. CET1 held steady at 10.8%, with a stated target of ~10% by 2027. Management clarified the buyback increase is driven by capital planning confidence—not Basel III—though proposed Basel III changes could reduce RWA by 9%-11%, supporting durability of elevated returns beyond 2026.",
+      "stance": "increasing",
+      "quote": "We are targeting repurchases of $1.2 billion in the second quarter and approximately $5 billion in 2026, compared with our previous expectation for $4 billion of repurchases for full year 2026.",
+      "speaker": "Michael Maguire (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Loan growth was entirely organic; M&A was explicitly ruled out as a priority. Average loans held for investment grew $2.3B or 0.7% QoQ to $327B, driven by 1.8% commercial loan growth, partially offset by a 0.9% consumer decline. Full-year 2026 average loan growth guidance is maintained at 3%-4%, weighted toward commercial and specialty consumer (Sheffield, LightStream, Service Finance), with indirect auto and residential mortgage intentionally de-emphasized for return reasons.",
+      "stance": "steady",
+      "quote": "Based on our current pipeline and economic outlook, we continue to expect average loan growth of approximately 3% to 4% in 2026.",
+      "speaker": "Michael Maguire (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management adopted a cautious-but-constructive tone, acknowledging that 'rates higher for longer' pressures deposits and NIM, and explicitly removing two previously assumed Fed cuts from guidance. While pipelines and client activity were described as healthy, management signaled heightened competitive dynamics and yield-seeking behavior, and noted that credit spread tightness despite market volatility is 'a little bit of a head scratcher,' reflecting underlying uncertainty.",
+      "stance": "cautious",
+      "quote": "if rates higher for longer is a tough operating environment for deposits",
+      "speaker": "William Rogers (CEO)",
+      "confidence": "medium",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "The most pointed exchange came from Erika Najarian (UBS), who pressed management directly on a Bloomberg article speculating Truist could be an attractive M&A target—either as an acquirer or a seller—given its low market-cap-to-core-deposits ratio. Rogers deflected the merger speculation by calling it a rumor already refuted, and firmly redirected to the bank's organic profitability plan and new 16%-18% long-term ROTCE target as evidence of a standalone strategy. Mike Mayo then pushed further on succession risk and conditions under which Truist would consider a merger of equals, a sale, or an acquisition, receiving a similarly firm dismissal of M&A as a priority.",
+      "stance": "defensive-on-M&A",
+      "quote": "we've all been at this a long time and to ask me to speculate on some rumor and some article which by the way, has been repeated, I think, pretty solidly by the person identified in that. So let's just like put that aside.",
+      "speaker": "William Rogers (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  },
+  "ticker": "TFC",
+  "bank_name": "Truist Financial"
+}

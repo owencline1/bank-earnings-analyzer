@@ -19,25 +19,42 @@ from banks import BANKS
 
 
 def main():
+    """Run all three stages in order. Returns the exit code of the first stage
+    that fails (non-zero), or 0 if the whole pipeline succeeds.
+
+    Each stage now returns an exit code, so we stop the moment one fails rather
+    than running extract on missing transcripts or cross-reading stale data.
+    This is what lets a pipeline call run_all and trust `$?`.
+    """
     tickers = list(BANKS.keys())
 
     print("=" * 60)
     print(f"STEP 1/3  Fetching {len(tickers)} transcripts")
     print("=" * 60)
-    fetch.main(["--all"])
+    rc = fetch.main(["--all"])
+    if rc:
+        print("\nABORT: fetch stage failed -- not extracting on missing transcripts.")
+        return rc
 
     print("\n" + "=" * 60)
     print(f"STEP 2/3  Extracting analysis (calls Claude once per bank)")
     print("=" * 60)
     # extract.main handles the missing-API-key case and prints a clear error.
-    extract.main(["--all"])
+    rc = extract.main(["--all"])
+    if rc:
+        print("\nABORT: extract stage failed -- not cross-reading on incomplete data.")
+        return rc
 
     print("\n" + "=" * 60)
     print("STEP 3/3  Cross-reading into outputs/cross_read.md")
     print("=" * 60)
-    compare.main()
+    rc = compare.main()
+    if rc:
+        print("\nABORT: cross-read stage failed.")
+        return rc
 
     print("\nDone. See outputs/cross_read.md for the divergence report.")
+    return 0
 
 
 if __name__ == "__main__":

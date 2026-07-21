@@ -1,79 +1,79 @@
 {
-  "ticker": "BAC",
-  "bank_name": "Bank of America",
-  "call_date": "2026-04-15",
+  "call_date": "2026-07-14",
   "headline_metrics": {
-    "eps": "$1.11 (up 25% YoY)",
-    "revenue": "$30.3 billion (up 7% YoY)",
-    "nii": "$15.9 billion FTE (up 9% YoY)",
-    "cet1": "11.2% (down 14 bps QoQ)",
-    "nco_rate": "48 bps net loss rate",
-    "roe_rotce": "ROTCE 16%"
+    "revenue": "$31.6B (+15% YoY)",
+    "eps": "$1.21 (+34% YoY)",
+    "nii": "$16.2B (+9% YoY)",
+    "roe_rotce": "ROTCE 17%",
+    "cet1": "11.2%",
+    "nco_rate": "~$1.4B NCOs (flat QoQ)"
   },
   "dimensions": {
     "nim_nii": {
-      "summary": "NII was $15.9B FTE, up 9% YoY with net interest yield of 2.07% (up 8 bps YoY); management raised full-year 2026 NII growth guidance to 6%-8% versus 2025, driven by outperformance, a curve that now assumes no rate cuts, fixed-rate asset repricing and balance sheet growth.",
+      "summary": "NII rose to ~$16.2B, up $253M from Q1 and up 9% YoY, driven by loan/deposit growth, fixed-rate asset repricing, and global markets activity. Management raised full-year NII guidance twice during the year — from 5-7% to 6-8% in April, and now to the upper end of the 6-8% range — supported by continued loan/deposit growth and one expected 25bp rate hike in September. Net interest yield was 2.08%, up 1bp QoQ and 14bp YoY, with a longer-term target of ~2.30%.",
       "stance": "raised",
-      "quote": "we're raising our full year NII growth guidance range for 2026 versus 2025 to be up 6% to 8%, and that outlook continues to assume moderate deposit and loan growth.",
-      "speaker": "Alastair Borthwick, CFO",
+      "quote": "We now expect full year 2026 NII growth to be at the upper end of that 6 to 8% range supported by anticipated loan and deposit growth, fixed rate asset repricing and balance sheet optimisation and this assumes modest loan and deposit growth in the second half of the year and it's based on the current forward curve which has one 25 basis point rate hike in September.",
+      "speaker": "Alistair (CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "credit_normalization": {
-      "summary": "Credit performance was described as stable and benign, with net charge-offs of ~$1.4B and a 48 bps net loss rate, down YoY and modestly up sequentially on card seasonality; net charge-offs, card delinquencies, reservable criticized assets and nonperforming loans all declined versus Q1 2025.",
+      "summary": "Credit quality is described as stable and consistent, with provision expense and net charge-offs both approximately $1.4B and largely unchanged from Q1. Consumer card charge-offs and delinquencies improved both YoY and QoQ. Reservable criticized commercial exposures declined ~$2.3B from Q1, driven primarily by CRE improvement. Management expressed confidence that credit costs have 'flattened out at very strong historical levels.'",
       "stance": "stable",
-      "quote": "Net charge-offs were approximately $1.4 billion with a net loss rate of 48 basis points. Both of those were down from Q1 '25 and modestly up from Q4, primarily reflecting the normal seasonality in our card portfolio with continued stability across the commercial portfolio and improved results in CRE office loans.",
-      "speaker": "Alastair Borthwick, CFO",
+      "quote": "Consumer card charge offs and delinquencies improved both year over year and quarter over quarter. Commercial credit also remained solid with CRE improvement offset by some isolated corporate and commercial lending losses. Reservable criticized commercial exposures declined by approximately $2.3 billion from Q1 to roughly 22 billion, driven primarily by CRE improvement.",
+      "speaker": "Alistair (CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "cre_reserves": {
-      "summary": "Provision included a modest net reserve RELEASE driven by improvements in CRE office (and card), as the office portfolio shrank with fewer NPLs and the first quarter in over 3 years with no new NPL inflows into office; this release was partially offset by growth-related builds in corporate/commercial lending.",
+      "summary": "BAC recorded a modest reserve RELEASE this quarter. CRE was cited as a positive driver — criticized CRE exposures declined, contributing to the $2.3B drop in total reservable criticized commercial exposures. The reserve release was modest and the overall portfolio is described as well-positioned. Office CRE was not specifically called out as a separate risk item.",
       "stance": "releasing",
-      "quote": "The only thing that happened to offset that was we had some release from the continued improvement in CRE office where we had built reserve pretty significantly. And as that portfolio has gotten smaller, as we've got less and less in the way of NPLs and [indiscernible] there, we've been able to take some of the reserve back out.",
-      "speaker": "Alastair Borthwick, CFO",
+      "quote": "Non-performing loans remain stable at approximately $5.8 billion and we recorded a modest reserve release. Overall, our portfolio remains well positioned, supported by strong client fundamentals and disciplined risk management.",
+      "speaker": "Alistair (CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "deposit_costs": {
-      "summary": "Total rate paid on deposits fell 16 bps to 1.47%, aided by a high-quality, low-cost mix and discipline that lets BofA avoid chasing CDs; with no rate cuts assumed, management sees little impetus to change interest-bearing pricing and noted noninterest-bearing deposits picked up.",
+      "summary": "Deposit costs moved modestly lower this quarter, led by consumer deposits with a rate paid of 48bp on $957B in balances. Management emphasized that the favorable mix — including seven consecutive quarters of non-interest-bearing deposit growth (up 4% YoY) — is the key driver of competitive funding costs, not rate-cutting aggression. BAC's strategy focuses on relationship-value deposits (operating accounts, checking) rather than chasing rate-sensitive balances.",
       "stance": "falling",
-      "quote": "The total rate paid on our deposits declined 16 basis points to 1.47%, and this allows us to maintain one of the lowest cost funding profiles among the large U.S. banks.",
-      "speaker": "Alastair Borthwick, CFO",
+      "quote": "As shown in the upper right, rate paid was modestly lower this quarter led by consumer deposits of 48 basis points on 957 billion in balances, so favorable balance moves.",
+      "speaker": "Alistair (CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "capital_return": {
-      "summary": "BofA returned $2B in dividends and $7.2B in buybacks, letting CET1 drift down 14 bps to 11.2% as capital return outpaced earnings; with growing clarity on Basel III Endgame and G-SIB indexing expected to net to lower requirements, management is moving toward a tighter ~50 bps buffer over minimums.",
-      "stance": "increasing",
-      "quote": "This quarter, we paid $2 billion in common dividends and we bought back $7.2 billion of common shares.",
-      "speaker": "Alastair Borthwick, CFO",
+      "summary": "BAC returned $8B to shareholders via dividends and buybacks in Q2. CET1 ratio held steady at 11.2%, well above the 10% regulatory minimum, while Tier 1 common equity grew to nearly $202B. Management noted ongoing balance sheet optimization — paying down repo and institutional CDs — which will free up additional capital and support ROTCE improvement. No specific Basel III endgame commentary was made.",
+      "stance": "steady",
+      "quote": "We returned $8 billion to you through dividends and share repurchases this quarter. We ended the quarter with Common Equity Tier 1 capital of nearly 202 billion and a Common Equity Tier 1 ratio of 11.2%. The economic backdrop remains very constructive.",
+      "speaker": "Brian Moynihan (Chief Executive Officer)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "loan_growth": {
-      "summary": "Average loans grew nearly 9% YoY, led by commercial portfolios, with consumer up ~4% (incl. 3% card); growth was described as broad-based organic core client activity, with the C&I pickup driven mostly by revolver/credit-line utilization (~$5B-$10B) rather than acquisitions.",
-      "stance": "steady",
-      "quote": "Average balances grew nearly 9% year-over-year driven primarily by client demand in our commercial portfolios. That growth was broad-based, and it reflects good core operating client activity.",
-      "speaker": "Alastair Borthwick, CFO",
+      "summary": "Loan growth was entirely organic — management explicitly highlighted this as a key differentiator. Average loans rose to $1.2T, up $88B or 8% YoY, marking the ninth consecutive quarter of average and ending loan growth. Commercial loans led at $733B, up $75B or 11% YoY, with broad-based growth across business banking, commercial bank, and corporate bank. Consumer loans grew 3% YoY, with card up 4% and securities-based lending strong. No acquisition-driven growth was mentioned.",
+      "stance": "accelerating",
+      "quote": "Average loans and leases increased to 1.2 trillion, up 88 billion or 8% from a year ago. Ending loans were also 1.22 trillion, up $71 billion or 6%, marking the ninth consecutive quarter of both average and ending loan growth.",
+      "speaker": "Alistair (CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "macro_outlook": {
-      "summary": "Management sees a resilient economy with U.S. GDP growth around 2%, a strong, broadly spending consumer supported by solid wage growth and low unemployment, while acknowledging risks (Middle East, trade, inflation); overall the macro backdrop is characterized as constructive.",
+      "summary": "Management struck a clearly constructive tone on the macro. BAC's research team raised the 2026 US GDP growth forecast to 2.2%, global growth is expected at 3.2% in 2026 rising to 3.5% in 2027, and consumer spending is now running at 6%+ YoY. Unemployment at ~4.2% and low new claims were cited as signs of durability. Inflation and tighter monetary policy were acknowledged as key risks, and geopolitical risk (Iran) was briefly flagged as a tail risk for capital markets.",
       "stance": "constructive",
-      "quote": "In our view, while those risks are out there, the macro backdrop remains constructive and a diversified business model position us well to continue to deliver for you across a range of economic scenarios.",
-      "speaker": "Brian Moynihan, Chair and CEO",
+      "quote": "Last week our research team raised its 2026 US GDP growth forecast to 2.2%. They also have global growth expected to remain steady at 3.2% in 2016 and grow to 3.5% in 2027. As noted on the slide, consumer spending has recently expanded and continued to outperform our expectations. While the slide reflects 5% growth in year over year spending for the first half, the spending picked up during the second quarter and now is running at 6% plus year over year comparison.",
+      "speaker": "Brian Moynihan (Chief Executive Officer)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "notable_qa": {
-      "summary": "Saul Martinez (HSBC) pushed back on the reserve release amid macro uncertainty, suggesting BofA reserves less conservatively than peers; Borthwick rejected the framing, attributing lower reserves to a higher-quality loan mix and lowest stress-test loss rates, noting they actually skewed reserves toward the downside/baseline case while releasing only on CRE office improvement.",
-      "stance": "reserve-philosophy challenge",
-      "quote": "I was a little bit surprised that you saw the slight reserve release this quarter given the macro uncertainties. And -- so I guess how are you factoring in macro volatility, downside case scenarios into reserving? Because it does seem like you take a different approach to reserving some of your peers.",
-      "speaker": "Saul Martinez, HSBC (analyst)",
+      "summary": "Mike Mayo (Wells Fargo) pressed management repeatedly and pointedly on whether the NII guide was being sandbagged — noting investor feedback that the guide 'is conservative' — and pushed on operating leverage sustainability and commercial loan growth composition. Alistair acknowledged tougher H2 comps and guided to ~8% full-year NII growth, walking back from the more bullish framing by clarifying the comp dynamic rather than raising guidance further. The exchange also surfaced the candid admission that the full-year NII number 'looks more like 8%' even with upper-end range language.",
+      "stance": "defensive-clarifying",
+      "quote": "So the investor feedback so far is that they feel that the net interest income guide is conservative. So maybe I'll just re-unpack the number of questions that you've gotten already on this, Alistair.",
+      "speaker": "Mike Mayo (Equity Analyst, Wells Fargo)",
       "confidence": "high",
       "verbatim_ok": true
     }
-  }
+  },
+  "ticker": "BAC",
+  "bank_name": "Bank of America"
 }

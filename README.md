@@ -73,6 +73,32 @@ python verify_quotes.py      # independently re-check every quote is verbatim
 
 Running `fetch.py` or `extract.py` with no arguments prints its own usage help.
 
+### Wrapping it in a pipeline
+
+Each stage is callable both ways and reports success through its **exit code**, so
+a scheduler or wrapper can check `$?` (or the return value of `main()`) instead of
+scraping stdout:
+
+- **`0`** — every requested bank in that stage succeeded.
+- **non-zero** — at least one bank failed, the API key was missing (`extract`), or
+  there was nothing to cross-read (`compare`).
+
+`run_all.py` chains the three stages and **stops at the first non-zero stage**, so it
+won't extract on missing transcripts or cross-read on stale data; it returns that
+stage's code. Paths are anchored to the scripts' own folder, so it runs correctly
+from any working directory. Calling from Python:
+
+```python
+import fetch, extract, compare
+if fetch.main(["--all"]):   raise SystemExit("fetch failed")
+if extract.main(["--all"]): raise SystemExit("extract failed")
+if compare.main():          raise SystemExit("cross-read failed")
+```
+
+Note: a quote that fails the verbatim check is **not** a stage failure — extraction
+still succeeded. That signal lives in the JSON (`verbatim_ok`) and the report's flag
+list; re-run `verify_quotes.py` to gate on it.
+
 ---
 
 ## What you get
@@ -86,16 +112,45 @@ Running `fetch.py` or `extract.py` with no arguments prints its own usage help.
 
 ---
 
-## Run a new quarter
+## Run a new quarter (with Claude)
 
-1. In **`banks.py`**, set `QUARTER` (e.g. `"Q2 2026"`) and update each bank's
-   transcript `url`. URLs aren't auto-discovered — find each by searching
-   `"<Bank> (TICKER) Q2 2026 earnings call transcript"` and pasting the link.
-2. `python run_all.py`.
+URLs now live in **`urls.json`**, not in code, so starting a new quarter is a data
+edit, not a Python edit. The pipeline reads `active_quarter` from that file and
+builds the bank list from the matching URL block.
 
-To change *which* banks are covered, add or remove entries in `BANKS`. To change
-*what* is extracted, edit the `DIMENSIONS` list in `schema.py` — that single list
-is the contract every bank is held to.
+**Ask Claude to do it end-to-end** — "run the Q2 2026 bank report". A capable
+Claude session can:
+
+1. **Discover the 7 URLs** via web search — one search per bank,
+   `"<Bank> (TICKER) Q2 2026 earnings call transcript motley fool"`. Confirm each
+   result URL slug contains the ticker *and* the quarter (e.g.
+   `.../jpmorgan-jpm-q2-2026-...`) before trusting it.
+2. **Write them into `urls.json`** — add a `"Q2 2026": { ... }` block under
+   `quarters`, and set `"active_quarter": "Q2 2026"`. (It's plain JSON, so there's
+   no Python syntax to break.)
+3. **Run** `python run_all.py`.
+
+You don't have to trust the auto-found URLs blindly — `fetch.py` has a **validation
+gate** that fails loud if a URL points at the wrong bank or the wrong quarter:
+
+- **Wrong bank** — the subject bank's name must be the most-mentioned of all seven
+  in the transcript (a rival analyst on the call isn't enough to fool it).
+- **Wrong quarter/year** — the call's dated header must match the expected
+  reporting month (Q1→April, Q2→July, Q3→October, Q4→the next January) and year.
+  The error names the date it actually found and distinguishes a wrong-year URL
+  (almost certainly the wrong link) from a right-year/wrong-month one (flagged
+  **`OFF-SCHEDULE?`** — the bank may have reported off its usual week, so the
+  transcript could be valid; open the link and confirm before discarding).
+
+So a misrouted link produces a hard error before any analysis runs, not a
+confident-but-wrong report. Timing note: each bank's transcript only exists once
+its call has been published (a few hours-to-days after it reports), so run this
+*after* all seven have reported — mid-to-late in earnings week.
+
+To change *which* banks are covered, edit `BANK_UNIVERSE` in `banks.py` (name +
+the distinctive `match` token used by the validation gate). To change *what* is
+extracted, edit the `DIMENSIONS` list in `schema.py` — that single list is the
+contract every bank is held to.
 
 ---
 
@@ -105,8 +160,11 @@ Read these before assuming it's plug-and-play:
 
 - **It costs money.** `extract.py` makes one Claude API call per bank (8 here).
   Small — cents to low dollars per full run — but not free.
-- **Transcript URLs are manual.** You paste them into `banks.py` each quarter.
-  There's no automatic discovery.
+- **Transcript URLs need discovery each quarter.** They live in `urls.json` and
+  embed a publish date that can't be guessed. A Claude session can find and write
+  them for you (see [Run a new quarter](#run-a-new-quarter-with-claude)), and the
+  fetch-stage validation gate rejects a wrong-bank or wrong-quarter link — but
+  auto-found URLs should still get a glance before a published writeup.
 - **The scraper is source-specific and can break.** `fetch.py` is tuned to one
   transcript provider's page layout (it looks for a specific HTML container). If
   that site changes its markup, fetching breaks and the script will fail loudly
@@ -132,7 +190,8 @@ should be your own cross-read plus short, attributed quotes.
 
 | File | Role |
 |---|---|
-| `banks.py` | The bank universe + transcript URLs + the quarter label |
+| `banks.py` | The bank universe (names + identity tokens); reads URLs from `urls.json` |
+| `urls.json` | Transcript URLs per quarter + the `active_quarter` selector (data, not code) |
 | `schema.py` | The extraction contract: the dimensions pulled from every call |
 | `fetch.py` | Stage 1 — download & clean transcripts |
 | `extract.py` | Stage 2 — Claude analysis + verbatim-quote check |

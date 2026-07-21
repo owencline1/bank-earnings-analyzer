@@ -1,0 +1,79 @@
+{
+  "call_date": "2026-04-15",
+  "headline_metrics": {
+    "eps": "$4.13 reported; $4.32 adjusted (excl. integration costs)",
+    "nii": "$4.0 billion (+6% QoQ)",
+    "revenue": "$6.2 billion (+2% QoQ)",
+    "roe_rotce": "~18% ROTCE target by Q4 2026",
+    "cet1": "10.1% (est.)",
+    "nco_rate": "24 bps (excl. acquired charge-offs); $253M total NCOs"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NIM expanded 11 bps QoQ to 2.95%, driven by lower funding costs, commercial loan growth, and the FirstBank acquisition. Management raised full-year NII guidance to +~14.5% YoY and expects NIM to exceed 3% in the second half of 2026, with expansion continuing to be led by fixed-rate asset repricing.",
+      "stance": "expanding",
+      "quote": "We still expect to go above 3% in the second half. As you pointed out, we are at 2.95%, so if we are going to be above 3% in the second half, you can do the math in between. Most of the expansion is still coming from the fixed-rate asset repricing. That continues to be very strong.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit quality remains stable to improving: NPL ratio declined to 0.62% from 0.67% QoQ, accruing past-dues ticked down, and the underlying NCO rate (ex-acquisition accounting) was a benign 24 bps. Q2 NCO guidance of ~$225M implies a modest sequential decline from the $253M reported, suggesting stabilization rather than deterioration.",
+      "stance": "stable",
+      "quote": "Nonperforming loans increased $25 million, or 1%, and represented 0.62% of total loans, down from 0.67% last quarter. Total delinquencies increased $115 million to $1.6 billion, and our accruing loans past due declined to 0.43%, down from 0.44% last quarter. Total net loan charge-offs of $253 million included $45 million of purchase accounting related to the acquisition. Excluding these acquired charge-offs, our NCO ratio was 24 basis points.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "PNC signaled CRE has reached an inflection point with balances ticking up ~$100M in Q1 after prolonged runoff, and management expects moderate CRE growth through the rest of 2026. On reserves, the overall allowance held flat at 1.52% of total loans; management referenced past heavy reserving for office CRE as largely complete, with no incremental office-driven reserve build this quarter.",
+      "stance": "flat",
+      "quote": "CRE balances reached an inflection point and increased approximately $100 million; we expect moderate growth through the remainder of the year.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "medium",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Deposit costs fell 18 bps QoQ to 1.96% on interest-bearing deposits, reflecting the rate environment and a reduction in brokered CDs. Management expects deposit costs to be roughly flat in Q2 and may drift up 1-2 bps thereafter due to back-book repricing, not competitive pressure — consistent with their no-Fed-cut base case.",
+      "stance": "falling",
+      "quote": "If the Fed does not cut, which is our expectation, deposit costs are fairly steady through the second quarter and then, by our estimates, maybe go up 1 or 2 basis points. Generally speaking, the pressure up is not from competition but rather repricing back book as things roll—back book customers to a closer-to-market level.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": false
+    },
+    "capital_return": {
+      "summary": "PNC returned $1.4B in Q1 ($700M dividends + $700M buybacks) and guided for continued quarterly repurchases of $600M–$700M. CET1 dropped 50 bps to 10.1%, primarily from the FirstBank acquisition (~40 bps). Management flagged a potential ~10% RWA reduction (~$45-50B) under the Basel III proposal — a net positive — but said capital deployment decisions will await regulatory finalization.",
+      "stance": "steady",
+      "quote": "During the quarter, we returned $1.4 billion of capital to shareholders. Common dividends and share repurchases were approximately $700 million each, and we continue to expect quarterly repurchases to be in the range of $600 million to $700 million going forward.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Average loans grew $23B (7%) QoQ to $351B; on a spot basis, $15B came from FirstBank and $14B was organic legacy PNC growth — described as a three-year high in organic loan growth. Full-year 2026 average loan growth guidance was raised to ~11% YoY from an earlier ~8%, though management cautioned that H2 visibility is lower. Growth was broad-based in C&I, driven by new production, higher utilization, and expansion market momentum.",
+      "stance": "accelerating",
+      "quote": "On a spot basis, loans increased $29 billion, or 9% from year-end, including $15 billion from the FirstBank acquisition and $14 billion of growth in legacy The PNC Financial Services Group, Inc. loans.",
+      "speaker": "Rob Reilly, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management's base case is ~1.9% GDP growth in 2026, unemployment drifting to 4.6% by year-end, and no Fed rate cuts in 2026. They acknowledged elevated headline survey pessimism but noted actual client spending and activity levels remain robust — spending has even accelerated — creating a notable disconnect between survey data and observed behavior.",
+      "stance": "balanced",
+      "quote": "I do not know that we can square for you the headline surveys on consumer confidence or small business confidence, which are all not great, with what we actually see. When you look through spending patterns, growth in savings, activity levels, loan growth—what we see day to day in our business is almost at complete odds with the surveys you see on confidence.",
+      "speaker": "Bill Demchak, Chairman, President & CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Mike Mayo (Wells Fargo) pressed management on how PNC is achieving outsized loan growth relative to peers in what appears to be an industry-wide capital-deployment environment — essentially asking whether PNC is competing on price or taking undue risk. Demchak pushed back firmly, attributing growth to new market expansion (expansion markets now >50% of corporate loans, growing 2x faster), specialty lending products, and integrated relationships — not price competition or loosening standards.",
+      "stance": "defensive-constructive",
+      "quote": "That is not our story. We are bringing all these new markets online. We have more shots on goal. We are seeing more opportunities as opposed to trying to rebid the same deal I have been in for 22 years in our local market. That is a big part of it, and that is why when we went through the Southeast, now it is accelerating—BBVA and FirstBank markets.",
+      "speaker": "Bill Demchak, Chairman, President & CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  },
+  "ticker": "PNC",
+  "bank_name": "PNC Financial"
+}

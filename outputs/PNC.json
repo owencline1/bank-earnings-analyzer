@@ -1,79 +1,79 @@
 {
-  "ticker": "PNC",
-  "bank_name": "PNC Financial",
-  "call_date": "April 15, 2026",
+  "call_date": "2026-07-15",
   "headline_metrics": {
-    "eps": "$4.13 per common share ($4.32 adjusted for integration costs)",
-    "revenue": "$6.2 billion, up $94 million or 2% sequentially",
-    "nii": "$4.0 billion, up $230 million or 6% sequentially",
-    "cet1": "10.1% (estimated), down 50 bps from year-end 2025",
-    "nco_rate": "Net charge-offs $253 million; NCO ratio 24 bps excluding acquired charge-offs",
-    "roe_rotce": "Finished 2025 at approximately 18% ROTCE; expected back to ~18% in Q4 2026"
+    "eps": "$4.81 reported / $4.85 adjusted (diluted)",
+    "nii": "$4.1 billion (Q2 2026)",
+    "revenue": "$6.9 billion (Q2 2026)",
+    "roe_rotce": "17.9% ROTCE",
+    "cet1": "9.9% (estimated)",
+    "nco_rate": "25 bps"
   },
   "dimensions": {
     "nim_nii": {
-      "summary": "NIM was 2.95%, up 11 bps sequentially, and management expects to exceed 3% in the second half driven mainly by fixed-rate asset repricing; full-year NII is guided up approximately 14.5%.",
-      "stance": "expanding",
-      "quote": "Our net interest margin was 2.95%, an increase of 11 basis points.",
-      "speaker": "Rob Reilly, CFO",
+      "summary": "NII grew 4% linked quarter to $4.1 billion, driven by commercial loan growth and higher NIB deposit balances. NIM ticked up 1 bp to 2.96%; management reiterated their commitment to crossing 3% by year-end, with full-year NII guided up 15–15.5% vs. 2025, and Q3 NII guided up 3–3.5% sequentially. Higher-credit-quality, lower-spread commercial loans are constraining near-term NIM even as they are highly EPS-accretive.",
+      "stance": "raised",
+      "quote": "We expect full-year net interest income to be up 15 to 15.5%",
+      "speaker": "Rob Reilly (Executive Vice President and CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "credit_normalization": {
-      "summary": "Credit quality remained strong with NPL and delinquency ratios improving both sequentially and year over year; NPLs were 0.62% of loans, down from 0.67%, and the linked-quarter balance growth was entirely from FirstBank.",
-      "stance": "stable",
-      "quote": "Our NPL and delinquency ratios each improved on both a linked-quarter and year-over-year basis, reflecting the strong credit quality we continue to see across our portfolio, and the linked-quarter growth in balances was entirely attributable to the addition of FirstBank.",
-      "speaker": "Rob Reilly, CFO",
+      "summary": "Credit quality improved across every major metric: NPLs fell 10% to 0.55% of loans, total delinquencies declined to 0.39% of loans, and net charge-offs were $226 million at a 25 bp NCO rate. Management guided Q3 NCOs to approximately $225 million, suggesting stable/improving credit with no notable deteriorating pockets beyond isolated sector pressures (healthcare, distilleries, transportation).",
+      "stance": "improving",
+      "quote": "Overall credit quality remains strong with improvements in NPLs, delinquencies, and net loan charge-offs. Non-performing loans of $2 billion decreased $216 million or 10%, and represented 0.55% of total loans, down from 0.62% last quarter. Total delinquencies declined $122 million to $1.4 billion and now represent 0.39% of total loans. Total net loan charge-offs were $226 million and our NCO ratio was 25 basis points.",
+      "speaker": "Rob Reilly (Executive Vice President and CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "cre_reserves": {
-      "summary": "PNC said it had already reserved heavily for office CRE and is 'through it', and CRE balances reached an inflection point with growth of roughly $100 million; the total allowance was $5.5 billion or 1.52% of loans, with provision driven by loan growth rather than a CRE build.",
-      "stance": "flat",
-      "quote": "Remember when we highlighted our real estate book—we said we were worried about office, we are through it, we reserved a lot of it.",
-      "speaker": "Bill Demchak, CEO",
-      "confidence": "medium",
+      "summary": "PNC released CRE reserves as the office CRE workout continued. Management noted they have 'worked through the commercial real estate office portfolio' with 'still some work to do,' but explicitly confirmed reserve releases. CRE balances inflected to growth in Q1 2026 for the first time after many quarters of declines, driven by retail and industrial, with constructive pipelines forming across multifamily, industrial, and retail.",
+      "stance": "releasing",
+      "quote": "We've worked through the commercial real estate office portfolio. Still some work to do there. But we did release some reserves as we work through that book.",
+      "speaker": "Rob Reilly (Executive Vice President and CFO)",
+      "confidence": "high",
       "verbatim_ok": true
     },
     "deposit_costs": {
-      "summary": "Total rate paid on interest-bearing deposits fell 18 bps to 1.96% on lower rates; with no Fed cuts expected, management sees deposit costs as fairly steady, rising perhaps 1-2 bps from back-book repricing rather than competition.",
-      "stance": "stable",
-      "quote": "If the Fed does not cut, which is our expectation, deposit costs are fairly steady through the second quarter and then, by our estimates, maybe go up 1 or 2 basis points.",
-      "speaker": "Rob Reilly, CFO",
+      "summary": "Total rate paid on interest-bearing deposits fell 5 bps linked quarter to 1.91%, with declines across all deposit categories. NIB balances grew 4% LQ to 23% of total deposits. Management guided rate paid to drift back up to Q1 levels in coming quarters due to back-book repricing, but characterized the increase as 'not dramatic,' particularly for banks with strong retail franchises.",
+      "stance": "peaking",
+      "quote": "Our total rate paid on interest-bearing deposits decreased 5 basis points to 1.91% in the second quarter, reflecting lower rates paid across all deposit categories. Notably, average non-interest-bearing balances grew 4% linked quarter and represented 23% of total deposits.",
+      "speaker": "Rob Reilly (Executive Vice President and CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "capital_return": {
-      "summary": "PNC returned $1.4 billion to shareholders ($700 million each dividends and buybacks), expects quarterly repurchases of $600-700 million, and anticipates a ~10% RWA reduction (worth close to a point of capital) under Basel III, with plans to return more capital than in prior years.",
+      "summary": "PNC returned $1.3 billion in Q2 via $690 million in dividends and $610 million in buybacks, and guided Q3 repurchases to approximately the same level. The board approved an 18% dividend increase to $2.00/share. CET1 was 9.9%, with management targeting ~10% as the operating level. No specific Basel III endgame commentary was offered.",
       "stance": "increasing",
-      "quote": "During the quarter, we returned $1.4 billion of capital to shareholders. Common dividends and share repurchases were approximately $700 million each, and we continue to expect quarterly repurchases to be in the range of $600 million to $700 million going forward.",
-      "speaker": "Rob Reilly, CFO",
+      "quote": "During the quarter, we returned $1.3 billion of capital to shareholders, which included $690 million of common dividends and $610 million of share repurchases. Going forward, we expect third-quarter repurchases to approximate this same level. As Bill just mentioned, our board recently approved a 30-cent increase to our quarterly cash dividend on common stock, raising the dividend 18% to $2 per share.",
+      "speaker": "Rob Reilly (Executive Vice President and CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "loan_growth": {
-      "summary": "Average loans grew $23 billion or 7% sequentially, a three-year high in organic growth, with $15 billion from the FirstBank acquisition and $14 billion of legacy organic growth; full-year loans are guided up ~11% but back-half growth is expected to moderate from Q1/Q2 levels.",
-      "stance": "accelerating",
-      "quote": "On a spot basis, loans increased $29 billion, or 9% from year-end, including $15 billion from the FirstBank acquisition and $14 billion of growth in legacy The PNC Financial Services Group, Inc. loans.",
-      "speaker": "Rob Reilly, CFO",
+      "summary": "Total average loans grew $12 billion or 4% linked quarter to $363 billion, virtually all organic and concentrated in C&I (broad-based across categories and geographies, with higher line utilization). CRE grew $690 million; consumer declined $730 million. Full-year average loan growth was guided to ~12.5%; second-half growth is expected to moderate to roughly GDP pace (~1-2% per quarter). The First Bank acquisition was completed but its incremental contribution was not separately quantified for organic vs. acquisition-driven loan growth in Q2.",
+      "stance": "steady",
+      "quote": "Virtually all of the loan growth was in CNI, reflecting strong new production and higher utilization across almost every loan category. CRE balances increased $690 million during the quarter, driven primarily by growth in retail and industrial exposures, and consumer loans declined by $730 million as growth in credit card balances partially offset expected declines in residential, real estate, and auto loans.",
+      "speaker": "Rob Reilly (Executive Vice President and CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "macro_outlook": {
-      "summary": "Management's base case assumes ~1.9% GDP growth, unemployment drifting to 4.6%, and no Fed rate cuts in 2026; they noted weak confidence surveys but said actual client activity and spending are at odds with that, with spending accelerating.",
+      "summary": "Management's base case is constructive: ~2.1% GDP growth in 2026, unemployment ending the year at ~4.3%, and the Fed on hold throughout 2026. They described credit quality as 'very good on both the consumer side and the commercial side' with no big pockets of concern, and characterized broad-based loan demand as reflecting a 'pretty strong economy.'",
       "stance": "constructive",
-      "quote": "When you look through spending patterns, growth in savings, activity levels, loan growth—what we see day to day in our business is almost at complete odds with the surveys you see on confidence.",
-      "speaker": "Bill Demchak, CEO",
+      "quote": "Regarding our view of the overall economy, our base case assumes GDP growth to be approximately 2.1% in 2026, with the unemployment rate holding steady and ending the year at approximately 4.3%. We expect the Federal Reserve to keep rates stable throughout 2026.",
+      "speaker": "Rob Reilly (Executive Vice President and CFO)",
       "confidence": "high",
       "verbatim_ok": true
     },
     "notable_qa": {
-      "summary": "Chris McGratty (KBW) pressed on where NDFI/private-credit risk ranks in PNC's wall of worry; Demchak forcefully dismissed it, saying it is 'not even on the curve' and contrasting it with real concerns like trucking and fuel-dependent borrowers.",
-      "stance": "deflected NDFI/private-credit risk fears",
-      "quote": "It is not even on the curve. If you go through that whole bucket, the riskiest piece in the whole thing is that little $5 billion slice that is to REITs, leasing, and this and that.",
-      "speaker": "Bill Demchak, CEO",
+      "summary": "Erika Najarian (UBS) pressed management on why the stock was down despite a beat-and-raise quarter, and challenged them on why investors should focus on NIM at all if NII dollars and EPS are growing. Bill Demchak pushed back directly, arguing NIM is the wrong metric to focus on, that PNC would always choose higher EPS over higher NIM, and that the mechanical path above 3% NIM by year-end remains intact regardless.",
+      "stance": "defensive-confident",
+      "quote": "Yeah, so again, we don't give NIM guidance nor do we manage to it. That said, I always give NIM guidance. So we're above 3. Erica. The precise level at the exit run rate. Why do you care? Is it's, you know, at the end of the day we'll, we'll stick to our guide and we'll get there. But, but if we grow EPS and NII, you know, at 2% higher and have a lower NIM or which, you know, to Rob's earlier point, why, why do you focus on it? So I, I personally don't care.",
+      "speaker": "William Demchak, Chairman Of The Board",
       "confidence": "high",
       "verbatim_ok": true
     }
-  }
+  },
+  "ticker": "PNC",
+  "bank_name": "PNC Financial"
 }

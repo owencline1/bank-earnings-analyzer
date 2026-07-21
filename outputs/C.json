@@ -1,34 +1,32 @@
 {
-  "ticker": "C",
-  "bank_name": "Citigroup",
-  "call_date": "2026-04-14",
+  "call_date": "2026-07-14",
   "headline_metrics": {
-    "eps": "$3.06",
-    "revenue": "$24.6 billion, up 14%",
-    "nii": "NII ex-Markets up 7%",
-    "cet1": "12.7%",
-    "nco_rate": "U.S. Cards NCL rate guided 4%-4.5% for FY2026; net credit losses declined 11%",
-    "roe_rotce": "ROTCE of 13.1%"
+    "eps": "$3.15 diluted",
+    "revenue": "$24.8B",
+    "nii": "NII up 13% YoY (specific dollar NII not broken out in release)",
+    "roe_rotce": "ROE 11.4% / RoTCE 13.0%",
+    "cet1": "12.8%",
+    "nco_rate": "Reserve-to-funded loans 2.5%; Net credit losses $2.4B"
   },
   "dimensions": {
     "nim_nii": {
-      "summary": "NII ex-Markets was up 7% in Q1, helped partly by FX, and management reaffirmed full-year guidance of approximately 5%-6% growth anchored by mid-single-digit loan and deposit growth driven by client activity.",
-      "stance": "held",
-      "quote": "On NII, what we guided for the year—on the deck—is 5% to 6% NII ex Markets growth, anchored by mid-single-digit growth for both loans and deposits.",
-      "speaker": "Gonzalo Luchetti, CFO",
+      "summary": "Net interest income grew 13% year-over-year, driven by growth across all five businesses and Legacy Franchises, partially offset by a decline in Corporate/Other. The Corporate/Other NII decline was attributed to actions taken to reduce asset sensitivity in a lower interest rate environment, suggesting NII guidance is directionally held-to-expanding at the segment level even as Corporate Treasury positioning weighs on the consolidated figure.",
+      "stance": "expanding",
+      "quote": "Net interest income increased 13%, driven by growth across each of Citi's five businesses and Legacy Franchises, partially offset by a decline in Corporate/Other.",
+      "speaker": "Earnings Release",
       "confidence": "high",
       "verbatim_ok": true
     },
     "credit_normalization": {
-      "summary": "Card credit performance improved with net credit losses down 11% and delinquencies declining in a prime-weighted portfolio, while corporate net credit losses and nonaccruals remained low; management guided U.S. Cards NCL rate to 4%-4.5%.",
-      "stance": "improving",
-      "quote": "With our portfolio heavily weighted to prime, delinquencies and credit losses declined and are well in line with expectations.",
-      "speaker": "Jane Fraser, CEO",
+      "summary": "Net credit losses rose 8% year-over-year to $2.4B, but the overall provision fell 12% YoY as ACL builds moderated sharply. The reserve-to-funded-loans ratio edged down to 2.5% from 2.7%, and management cited 'better credit performance than expected' in U.S. Consumer Cards — suggesting credit is normalizing/improving rather than deteriorating, with USCC leading the improvement.",
+      "stance": "normalizing",
+      "quote": "Despite short-term headwinds from investments in our U.S. Consumer Cards portfolio, our resilient customer base kept fueling underlying drivers: loan growth, higher spend and better credit performance than expected.",
+      "speaker": "Jane Fraser, Chair and CEO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "cre_reserves": {
-      "summary": "Citi did not discuss commercial real estate or office CRE specifically; reserve commentary centered on a firm-wide net ACL build of $597 million reflecting a downside-skewed macro scenario, not CRE.",
+      "summary": "Commercial real estate is not explicitly broken out as a standalone reserve discussion in this release. The release covers ACL builds and releases at the segment level; no specific CRE or office CRE reserve action is identified or quantified.",
       "stance": "not discussed",
       "quote": "",
       "speaker": "",
@@ -36,44 +34,47 @@
       "verbatim_ok": null
     },
     "deposit_costs": {
-      "summary": "Management described deposit betas as quite stable, citing pricing discipline and the strength of its value proposition, with deposit growth driven by client activity (Services up 16%, Wealth up 4%).",
+      "summary": "Deposit costs are not explicitly discussed in terms of betas or rate levels. Services NII growth was driven by higher average deposit balances and deposit spreads, while Securities Services NII grew on higher balances but was partially offset by lower deposit spreads — suggesting mixed deposit spread dynamics across segments rather than a uniform directional trend.",
       "stance": "stable",
-      "quote": "Pricing discipline helps—betas are quite stable for us, a proof that our value proposition is performing and how embedded we are with clients, our global network on Services, and the quality of our advice and engagement on the Wealth business.",
-      "speaker": "Gonzalo Luchetti, CFO",
-      "confidence": "high",
+      "quote": "The increase in net interest income was driven by higher average deposit balances and deposit spreads.",
+      "speaker": "Earnings Release",
+      "confidence": "medium",
       "verbatim_ok": true
     },
     "capital_return": {
-      "summary": "Citi executed a record $6.3 billion in buybacks, nearing completion of its $20 billion plan, ended at 12.7% CET1, and signaled more capital return to come with details at Investor Day while holding a 100-110bp management buffer.",
+      "summary": "Citi returned ~$5.0B to shareholders in Q2 via buybacks and dividends, representing a 92% payout ratio. Management announced a 12% dividend increase and launched a $30B buyback plan, with CET1 at 12.8%, up from 12.7% last quarter. The tone is clearly one of increasing capital return.",
       "stance": "increasing",
-      "quote": "another piece goes into the buybacks that we executed in the quarter, which are a high watermark at $6.3 billion. There will be more to come as we go into Investor Day.",
-      "speaker": "Gonzalo Luchetti, CFO",
+      "quote": "Our growing earnings generation will allow us to increase our planned dividend by 12% and we have launched our $30 billion buyback plan.",
+      "speaker": "Jane Fraser, Chair and CEO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "loan_growth": {
-      "summary": "Loans ex-Markets grew about 5% in line with guidance, driven by client activity in Wealth, U.S. Cards and Services; management was emphatic that growth is purely organic and that no acquisitions are being pursued.",
-      "stance": "steady",
-      "quote": "In terms of loans, ex Markets, we are growing at about 5%, which is in line with our guidance. You can see that coming through in Wealth, in U.S. Cards, and also in Services with export financing and working capital. Most of the growth is driven by client activity.",
-      "speaker": "Gonzalo Luchetti, CFO",
+      "summary": "End-of-period loans grew 9% YoY and 4% QoQ to $794B, driven organically by Markets, USCC, and Services. USCC also onboarded the American Airlines co-branded card portfolio in Q2 2026, which is an acquisition-driven contributor to that segment's loan growth. Banking average loans grew 5% YoY, with growth in episodic IB-related loans offsetting declines in core corporate lending balances.",
+      "stance": "accelerating",
+      "quote": "Citigroup's end-of-period loans were $794 billion at quarter end, up 9% versus the prior-year period, primarily driven by higher loans in Markets, USCC and Services.",
+      "speaker": "Earnings Release",
       "confidence": "high",
       "verbatim_ok": true
     },
     "macro_outlook": {
-      "summary": "Management was cautious on the macro backdrop, citing Middle East conflict impacts, rising inflation risk and potentially more restrictive monetary policy, and reflected this by skewing reserves further to a downside scenario with ~7% unemployment.",
-      "stance": "cautious",
-      "quote": "And inflation is now a greater risk to growth and will likely cause central banks to lean towards more restrictive monetary policies.",
-      "speaker": "Jane Fraser, CEO",
-      "confidence": "high",
+      "summary": "Management's tone is cautiously constructive: consumer credit is performing better than expected, revenues are at a decade high, and capital returns are increasing. However, forward-looking statements cite 'macroeconomic, geopolitical and other challenges and uncertainties, including elevated inflation and conflicts in the Middle East,' and Corporate/Other NII was deliberately reduced to cut asset sensitivity ahead of a lower rate environment — signaling some macro caution embedded in balance sheet positioning.",
+      "stance": "balanced",
+      "quote": "These factors include, among others, macroeconomic, geopolitical and other challenges and uncertainties, including elevated inflation and conflicts in the Middle East.",
+      "speaker": "Earnings Release (forward-looking statement disclaimer)",
+      "confidence": "medium",
       "verbatim_ok": true
     },
     "notable_qa": {
-      "summary": "Mike Mayo pressed Fraser to be unequivocal that Citi is not pursuing any acquisition despite numerous press articles; Fraser flatly reaffirmed the firm is focused solely on organic growth.",
-      "stance": "M&A pushback / organic-only",
-      "quote": "I am always transparent. I am always straightforward with you. I want to be crystal clear: we are not interested in anything other than organic growth.",
-      "speaker": "Jane Fraser, CEO",
-      "confidence": "high",
-      "verbatim_ok": true
+      "summary": "This document is a written earnings release (8-K Ex. 99.1), not a call transcript; no Q&A session is included or available for analysis. The source explicitly notes the call transcript was not freely published on any parsable source as of the filing date.",
+      "stance": "not discussed",
+      "quote": "",
+      "speaker": "",
+      "confidence": "low",
+      "verbatim_ok": null
     }
-  }
+  },
+  "ticker": "C",
+  "bank_name": "Citigroup",
+  "source": "Q2 2026 earnings release (8-K EX-99.1, EDGAR) -- call transcript not freely published as of 2026-07-21; quotes are from the written release"
 }

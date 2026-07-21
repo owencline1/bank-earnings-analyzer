@@ -1,79 +1,79 @@
 {
-  "ticker": "USB",
-  "bank_name": "U.S. Bancorp",
-  "call_date": "2026-04-16",
+  "call_date": "2026-07-16",
   "headline_metrics": {
-    "eps": "$1.18, up approximately 15% year over year",
-    "revenue": "$7.3 billion total net revenue, up 4.7% year over year",
-    "nii": "$4.3 billion (taxable-equivalent), up 4.1% year over year",
-    "cet1": "10.8%, or 9.3% including AOCI",
-    "nco_rate": "0.56%, up 2 basis points sequentially",
-    "roe_rotce": "Return on tangible common equity of 17%; return on average assets of 1.15%"
+    "eps": "$1.35 (+22% YoY)",
+    "revenue": "$7.7B (record; +10.1% YoY)",
+    "nii": "$4.4B (FTE; +7.5% YoY)",
+    "roe_rotce": "ROTCE 18.7%; ROA 1.26%",
+    "cet1": "10.8% (9.4% including AOCI)",
+    "nco_rate": "0.53% (down 3 bps sequentially)"
   },
   "dimensions": {
     "nim_nii": {
-      "summary": "NIM was flat at 2.77% as core loan growth and stable deposit pricing offset elevated mortgage prepayments and tighter spreads; management expects continued margin progression and reiterated a path to 3%, with full-year NII growth guided to 4%-6%.",
+      "summary": "NII on an FTE basis hit $4.4B, up 7.5% YoY and 2.2% sequentially, driven by loan growth, investment portfolio repositioning, and fixed-asset repricing. NIM expanded 2 bps sequentially to 2.79%, with management guiding full-year NII growth to 'north of 5%' and maintaining a path toward 3% NIM sometime in 2027.",
       "stance": "expanding",
-      "quote": "Net interest margin was flat linked quarter at 2.77%, as core loan growth and stable deposit pricing were offset by elevated mortgage prepayments and somewhat tighter credit spreads.",
+      "quote": "We do expect that to grow over the course of the year and that's reflected in the guide and you know, you know, the deposits, you know, we, you know, we think that that's, that nothing's really changed on that front from a competitive nature standpoint.",
       "speaker": "John Stern, CFO",
-      "confidence": "high",
+      "confidence": "medium",
       "verbatim_ok": true
     },
     "credit_normalization": {
-      "summary": "Credit quality remained stable with nonperforming assets improving to 0.38%; the net charge-off ratio ticked up 2 bps to 0.56% driven by normal credit card seasonality, with management characterizing client resilience as strong.",
-      "stance": "stable",
-      "quote": "The first quarter net charge-off ratio was 0.56%, increasing 2 basis points sequentially, driven by the seasonal nature of credit cards, while our allowance for credit losses of nearly $8 billion represented 2% of period-end loans.",
+      "summary": "Credit quality continued to improve both sequentially and year-over-year. The NCO rate fell 3 bps sequentially to 0.53%, and the non-performing asset ratio improved 5 bps sequentially and 11 bps year-over-year to 0.33%, reflecting a stable economic backdrop.",
+      "stance": "improving",
+      "quote": "Our ratio of non-performing assets to loans and other real estate of 0.33% improved 5 basis points from the previous quarter and 11 basis points from a year ago. The second quarter net charge-off ratio was 0.53%, decreasing 3 basis points sequentially.",
       "speaker": "John Stern, CFO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "cre_reserves": {
-      "summary": "Management did not specifically discuss CRE loan-loss reserve builds or releases or office CRE; CRE was only cited as a contributor to broad-based loan growth, and the overall allowance was held at nearly $8 billion (2% of loans).",
-      "stance": "not discussed",
-      "quote": "",
-      "speaker": "",
-      "confidence": "low",
-      "verbatim_ok": null
+      "summary": "The allowance for credit losses held flat at $8B (1.94% of period-end loans) with no meaningful build or release on the existing book. However, management flagged a forward-looking $160M reserve build tied specifically to the pending Amazon Small Business portfolio acquisition expected to close in mid-August — not driven by CRE stress. Office CRE was not separately called out.",
+      "stance": "flat",
+      "quote": "We anticipate $160 million reserve build that will occur with the closing that we anticipate to be mid August.",
+      "speaker": "John Stern, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
     },
     "deposit_costs": {
-      "summary": "Deposit pricing was stable with the deposit mix improving as record consumer deposits offset wholesale seasonality; management is reducing CDs and higher-cost institutional deposits and expects to hold the line on costs.",
-      "stance": "stable",
-      "quote": "On deposits, yes — we have seen stabilization in deposit mix. We are ultra-focused on growing consumer deposits and, on the wholesale side, on operational deposits. We have been reducing CDs and higher-cost institutional deposits and other less valuable, one-off types.",
+      "summary": "Deposit costs edged up a couple of basis points in Q2, driven by seasonal commercial outflows offset by record consumer deposit growth. Management signaled costs could rise further if loan growth remains strong, but characterized the competitive environment as largely unchanged and described deposit pricing strategy as steady and targeted.",
+      "stance": "rising",
+      "quote": "You know, that rate is going to be dependent on just how strong loan growth is. I think the stronger the loan growth is, potential rates might go up on that deposit side.",
       "speaker": "John Stern, CFO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "capital_return": {
-      "summary": "CET1 was 10.8% (9.3% incl. AOCI); buybacks were doubled from $100M to $200M this quarter with further glide-up anticipated, and management reaffirmed a 70%-75% payout target while citing expected RWA relief from Basel III proposals as supportive of returning to historical deployment.",
+      "summary": "USB repurchased $200M in shares this quarter, flat versus the prior quarter, as capital was consumed by loan growth and the BTIG acquisition. CET1 stood at 10.8%, and management indicated they will increase buybacks and 'glide into' a 70-75% capital return payout range as they approach approximately 10% CET1, which they described as the last lap of capital building.",
       "stance": "increasing",
-      "quote": "The dividend is extremely important, and buybacks — we went from $100 million to $200 million this quarter. I would anticipate we will continue to glide up.",
+      "quote": "We would anticipate to increase the buybacks and glide into that 70 to 75% range which we're very committed to as we approach that 10%. Approximately that 10% level. So you know, this quarter we had 200 million of repurchases. That was flat versus the prior quarter. But we had a lot of loan growth in the BTIG acquisition.",
       "speaker": "John Stern, CFO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "loan_growth": {
-      "summary": "Average loans grew 3.8% YoY (5.3% ex-2025 loan sales) with broad-based organic strength in commercial, credit card, and CRE; management raised its full-year outlook to mid-single digits, plus an incremental ~$1.6B from the Amazon partnership in Q3.",
+      "summary": "Average loans grew 7.1% year-over-year and 3.0% sequentially to $405B, with broad-based organic strength in C&I, credit card, and commercial real estate. Inorganic contributions include the BTIG acquisition (primarily fee-based, minimal loan impact) and the pending Amazon Small Business portfolio (~$1.6B in card balances) expected to close mid-August. Management raised the full-year loan growth outlook above prior 'mid-single-digit' guidance.",
       "stance": "accelerating",
-      "quote": "We have talked about loan growth being in that 3% to 4% range, but I certainly think it is going to be higher than that — probably more in the mid-single-digit range — for the full year.",
+      "quote": "Average loans totaled $405 billion, up 7.1% from the prior year quarter and 3.0% from the prior quarter. Growth was broad-based in strategic categories such as CNI, credit card, and commercial real estate, which brings ancillary fees with them.",
       "speaker": "John Stern, CFO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "macro_outlook": {
-      "summary": "Management views the macro backdrop as constructive despite some softening sentiment, citing stable consumer spend, core loan demand, and delinquency trends, with sentiment shifting toward healthy core middle-market demand.",
+      "summary": "Management expressed a constructive view on the macro environment, noting a sentiment rebound from last year's tariff-related pause, broad-based and healthy loan demand across middle-market and large corporate clients, and a resilient consumer. They flagged the shape of the yield curve and deposit pricing as the key variables to watch, but showed no signs of recession concern.",
       "stance": "constructive",
-      "quote": "As we look ahead, the macroeconomic backdrop remains constructive, despite some softening of sentiment recently. Consumer spend, core loan demand, and credit delinquency trends all indicate relative stability.",
-      "speaker": "Gunjan Kedia, President and CEO",
+      "quote": "The sentiment rebound from the pause the tariffs last year has been the story we've heard it certainly the middle American footprint that we've had a lot of people who had paused last year to say where is all of this going? Are seeing a very resilient consumer and a lot of demand and beginning to lean into that in a fair way.",
+      "speaker": "Gunjan Kedia, CEO",
       "confidence": "high",
       "verbatim_ok": true
     },
     "notable_qa": {
-      "summary": "Gerard Cassidy (RBC) and others pressed management on the NDFI / business credit intermediary portfolio and what scenario would trigger losses; management defended the structures as having very low loss likelihood while acknowledging they 'never say never.'",
-      "stance": "NDFI loss-risk pushback",
-      "quote": "As bankers, we never say never — that is why we have limits, underwriting practices, and risk management. It is hard to envision the trigger, but rigor and limits are there for that reason.",
+      "summary": "Ken Usden (Autonomous Research) pressed management on whether the $98M June BTIG revenue was a sustainable run rate given that only $200M/quarter is embedded in forward guidance — implying a significant step-down. John Stern acknowledged the record month reflected unusual capital markets activity, cited seasonality, and defended the 200M/quarter guide while admitting it 'could go higher,' but maintained that the 15% contribution margin (net of $60M of integration costs) is the right core base for now.",
+      "stance": "defensive-but-measured",
+      "quote": "200 per quarter is what we anticipate. You know, I think there's some seasonality, you know, in the third and fourth, you know, they had a record quarter, record month in June. You know, a lot of, a lot of transactions. Could it go higher than 200? It could, but you know, capital markets, you know, fees can swing and things of that nature.",
       "speaker": "John Stern, CFO",
       "confidence": "high",
       "verbatim_ok": true
     }
-  }
+  },
+  "ticker": "USB",
+  "bank_name": "U.S. Bancorp"
 }

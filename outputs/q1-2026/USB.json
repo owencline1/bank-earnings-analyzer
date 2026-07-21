@@ -1,0 +1,79 @@
+{
+  "call_date": "2026-04-16",
+  "headline_metrics": {
+    "eps": "$1.18 (+~15% YoY)",
+    "revenue": "$7.3B (+4.7% YoY)",
+    "nii": "$4.3B (taxable-equivalent, +4.1% YoY)",
+    "nco_rate": "0.56% (+2 bps QoQ)",
+    "cet1": "10.8% (9.3% incl. AOCI)",
+    "roe_rotce": "ROTCE 17%; ROAA 1.15%"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NIM held flat QoQ at 2.77%, as core loan growth and stable deposit pricing were offset by elevated mortgage prepayments and tighter credit spreads on larger-institution loans. Management maintained full-year NII guidance of 4%-6% growth but expressed a bias toward the higher end on fees; Q2 NII growth is guided at 6%-7% YoY, and management still sees a path to 3% NIM over time, aided by the Amazon portfolio coming online in Q3.",
+      "stance": "expanding",
+      "quote": "Net interest margin was flat linked quarter at 2.77%, as core loan growth and stable deposit pricing were offset by elevated mortgage prepayments and somewhat tighter credit spreads.",
+      "speaker": "John Stern",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit metrics remained stable-to-improving: the NPA ratio fell 3 bps QoQ to 0.38%, and the NCO rate ticked up only 2 bps QoQ to 0.56%, entirely attributed to normal credit-card seasonality. Management characterized the environment as stable and expressed comfort with the resilience of the loan book, with no specific portfolios flagged as deteriorating.",
+      "stance": "stable",
+      "quote": "Our ratio of nonperforming assets to loans and other real estate was 0.38% as of March 31, an improvement of 3 basis points from the previous quarter and 7 basis points from a year ago. The first quarter net charge-off ratio was 0.56%, increasing 2 basis points sequentially, driven by the seasonal nature of credit cards.",
+      "speaker": "John Stern",
+      "confidence": "high",
+      "verbatim_ok": false
+    },
+    "cre_reserves": {
+      "summary": "Management did not announce a discrete CRE reserve build or release this quarter; the overall allowance for credit losses held at nearly $8 billion, or 2.0% of period-end loans. CRE was cited as one of the broad-based loan-growth drivers, and the Amazon card book reserve was flagged as a forthcoming build in Q3 at card-book levels, but no specific office-CRE reserve action was discussed.",
+      "stance": "flat",
+      "quote": "our allowance for credit losses of nearly $8 billion represented 2% of period-end loans",
+      "speaker": "John Stern",
+      "confidence": "medium",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Deposit costs were described as stable, with management actively reducing higher-cost CDs and institutional deposits while growing lower-cost consumer and operational deposits. No competitive deposit-pricing pressure was cited; management expressed confidence that costs can hold even if the Fed does not cut rates.",
+      "stance": "stable",
+      "quote": "On deposits, yes — we have seen stabilization in deposit mix. We are ultra-focused on growing consumer deposits and, on the wholesale side, on operational deposits. We have been reducing CDs and higher-cost institutional deposits and other less valuable, one-off types.",
+      "speaker": "John Stern",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "CET1 stood at 10.8% (9.3% including AOCI). Share repurchases doubled from $100M to $200M this quarter, with management signaling a continued 'glide up.' The long-term payout target of 70%-75% was reaffirmed, and management expressed optimism that pending Basel III proposals and potential AOCI phase-in rules could accelerate the path to historical capital-deployment levels.",
+      "stance": "increasing",
+      "quote": "The dividend is extremely important, and buybacks — we went from $100 million to $200 million this quarter. I would anticipate we will continue to glide up.",
+      "speaker": "John Stern",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Average loans grew 3.8% YoY (5.3% ex-2025 loan sales), driven organically by credit cards, C&I (food & beverage, energy, healthcare), and CRE. Management revised its full-year loan-growth view upward from ~3%-4% to 'probably more in the mid-single-digit range.' Growth is entirely organic; the BTIG acquisition adds fee revenue, not loans, and was explicitly excluded from guidance.",
+      "stance": "accelerating",
+      "quote": "We have talked about loan growth being in that 3% to 4% range, but I certainly think it is going to be higher than that — probably more in the mid-single-digit range — for the full year.",
+      "speaker": "John Stern",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management described the macro backdrop as 'constructive despite some softening of sentiment,' pointing to stable consumer spend, solid loan pipelines, and improving credit delinquency trends. Tariff uncertainty was acknowledged as creating some rate-path ambiguity, but corporate clients were said to be pivoting from AI/M&A-driven activity toward core middle-market CapEx expansion, which management views as a healthy demand signal.",
+      "stance": "balanced",
+      "quote": "As we look ahead, the macroeconomic backdrop remains constructive, despite some softening of sentiment recently. Consumer spend, core loan demand, and credit delinquency trends all indicate relative stability.",
+      "speaker": "Gunjan Kedia",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "The most pointed exchange came from Erika Najarian (UBS), who pressed management on whether the Category II AOCI cliff-in transition — and the lack of regulatory clarity on the five-year phase-in — would delay or constrain USB's path to 70%-75% capital payout. Management acknowledged the timing ambiguity directly but argued the impact is only a quarter or two, not strategically material, and reiterated confidence in their preparation for Category II.",
+      "stance": "cautious-but-confident",
+      "quote": "We believe regulators' intent is to allow all banks a five-year phase-in on AOCI to take cliff effects away, but we are waiting for clarification. A very good outcome for capital distributions would be a prompt effective date for current Basel III proposals plus a five-year phase-in; in that case we would be well ahead of our capital needs even as a Cat II and would bring forward distributions.",
+      "speaker": "Gunjan Kedia",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  },
+  "ticker": "USB",
+  "bank_name": "U.S. Bancorp"
+}

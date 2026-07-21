@@ -1,0 +1,79 @@
+{
+  "call_date": "2026-04-15",
+  "headline_metrics": {
+    "eps": "$1.11 (+25% YoY)",
+    "revenue": "$30.3B (+7% YoY)",
+    "nii": "$15.9B FTE (+9% YoY)",
+    "roe_rotce": "ROTCE 16%",
+    "cet1": "11.2% (-14 bps QoQ)",
+    "nco_rate": "48 bps (net loss rate)"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NII came in at $15.9B FTE (+9% YoY), beating expectations, with net interest yield of 2.07% (+8 bps YoY). Management raised full-year 2026 NII growth guidance to +6%–8% vs. 2025 (from a prior lower range), citing the rate curve shift from 2 expected cuts to none, continued fixed-rate asset repricing, balance sheet growth, and funding optimization.",
+      "stance": "raised",
+      "quote": "Given our outperformance against expectations of NII in Q1 and based on the most recent interest rate curve, which has now shifted from 2 rate cuts expected to having none currently, we're raising our full year NII growth guidance range for 2026 versus 2025 to be up 6% to 8%, and that outlook continues to assume moderate deposit and loan growth.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit remained broadly benign with NCOs of ~$1.4B (48 bps net loss rate), down YoY and modestly up sequentially due to normal card seasonality. Card delinquencies, reservable criticized assets, and NPLs all declined vs. Q1 2025; NPLs were flat QoQ. Management characterized credit as stable and consistent with expectations, not deteriorating.",
+      "stance": "stable",
+      "quote": "Net charge-offs were approximately $1.4 billion with a net loss rate of 48 basis points. Both of those were down from Q1 '25 and modestly up from Q4, primarily reflecting the normal seasonality in our card portfolio with continued stability across the commercial portfolio and improved results in CRE office loans.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "BAC released CRE reserves this quarter, specifically in the office CRE sub-portfolio, as that book has continued to shrink, NPL inflows into office hit zero for the first time in over 3 years, and underlying credit performance improved. The release was partially offset by growth-related reserve builds in corporate and commercial lending.",
+      "stance": "releasing",
+      "quote": "Provision expense was approximately $1.3 billion, including a modest net reserve release driven by improvements in card and commercial real estate and partially offset by growth-related and targeted build supporting corporate and commercial lending portfolios.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Deposit costs fell 16 bps QoQ to 1.47%, driven by disciplined pricing, mix discipline (avoiding rate-chasing on CDs and repo), and a deliberate strategy to let higher-cost institutional CDs and repo run off. Management indicated no strong impetus to raise deposit rates if the Fed stays on hold, and flagged continued growth in both interest-bearing and noninterest-bearing balances.",
+      "stance": "falling",
+      "quote": "The total rate paid on our deposits declined 16 basis points to 1.47%, and this allows us to maintain one of the lowest cost funding profiles among the large U.S. banks.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "BAC returned $9.2B to shareholders in Q1 ($7.2B buybacks + $2B dividends), deliberately running capital return above earnings generation, causing CET1 to dip 14 bps to 11.2%. Management signaled increasing comfort with running closer to a 50 bps management buffer over regulatory minimums, citing greater clarity on Basel III Endgame and G-SIB surcharge proposals that together are expected to reduce BAC's overall capital requirement vs. the current regime.",
+      "stance": "increasing",
+      "quote": "This quarter, we paid $2 billion in common dividends and we bought back $7.2 billion of common shares.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Average loans grew ~9% YoY, driven primarily by commercial portfolios (organic client demand and revolver utilization recovery); consumer loans grew ~4% YoY including 3% credit card growth and strong securities-based lending. All growth was explicitly described as organic — no acquisitions were referenced as a driver.",
+      "stance": "accelerating",
+      "quote": "Average balances grew nearly 9% year-over-year driven primarily by client demand in our commercial portfolios. That growth was broad-based, and it reflects good core operating client activity.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management struck a constructive tone: BAC's research team projects ~2% U.S. GDP growth, elevated inflation through 2026–2027, and moderate global growth. Consumer spending through BAC channels remained up 5% YoY into early Q1 2026 with debit/credit card spend up 6%. Management acknowledged tariff, geopolitical, and trade risks but said impacts have been 'measured and absorbed,' and described the macro backdrop as 'constructive.'",
+      "stance": "constructive",
+      "quote": "In our view, while those risks are out there, the macro backdrop remains constructive and a diversified business model position us well to continue to deliver for you across a range of economic scenarios.",
+      "speaker": "Brian Moynihan, CEO",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Saul Martinez (HSBC) pressed management on why BAC released reserves in a quarter marked by macro uncertainty, and challenged whether BAC's reserve ratios — which are lower than peers on coverage of charge-offs and delinquencies — reflect an overly optimistic reserving posture. Borthwick defended the approach by pointing to BAC's structurally lower-risk loan portfolio (lower unsecured consumer exposure, more wealth loans) and its 13-of-14-year record as the lowest loss bank in Fed stress tests, while acknowledging a specific upside-scenario haircut of 5% was moved to baseline this quarter.",
+      "stance": "defensive-on-reserving",
+      "quote": "The only thing that happened to offset that was we had some release from the continued improvement in CRE office where we had built reserve pretty significantly. And as that portfolio has gotten smaller, as we've got less and less in the way of NPLs and [indiscernible] there, we've been able to take some of the reserve back out. So that's all that's going on in this particular quarter.",
+      "speaker": "Alastair Borthwick, CFO",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  },
+  "ticker": "BAC",
+  "bank_name": "Bank of America"
+}

@@ -42,10 +42,16 @@ def load_dotenv():
 
 
 def _canon(s):
-    """Normalize for verbatim matching: collapse whitespace, unify quotes/dashes."""
+    """Normalize for verbatim matching: collapse whitespace, unify quotes/dashes,
+    and drop punctuation entirely. Auto-transcribed sources punctuate the same
+    words inconsistently ('Yeah, so' vs 'Yeah. So'), so the check is on the exact
+    WORD sequence; punctuation-only differences aren't a mismatch. Applied to
+    both the quote and the transcript, so word order must still match exactly.
+    Keep in sync with canon() in verify_quotes.py."""
     s = s.replace("’", "'").replace("‘", "'")
     s = s.replace("“", '"').replace("”", '"')
     s = s.replace("—", "-").replace("–", "-").replace("‒", "-")
+    s = re.sub(r"[^\w\s$%]", " ", s)
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
@@ -58,8 +64,11 @@ def build_prompt(ticker, transcript):
         f"transcript for {name} ({ticker}).\n\n"
         f"Extract a structured analysis covering exactly these dimensions:\n{labels}\n\n"
         "Rules:\n"
-        "1. Every 'quote' MUST be copied VERBATIM from the transcript -- exact words, "
-        "no paraphrasing, no '[...]' edits. If you can't find an exact supporting quote, "
+        "1. Every 'quote' MUST be ONE CONTIGUOUS passage copied VERBATIM from the "
+        "transcript -- exact words, no paraphrasing, and NEVER stitch two separate "
+        "passages together with '...' or '[...]' (a spliced quote fails verification "
+        "even if both halves are real). Prefer a shorter quote that is exactly "
+        "contiguous in the transcript. If you can't find an exact supporting quote, "
         "set quote to \"\" and confidence to \"low\".\n"
         "2. If a dimension genuinely isn't discussed, set stance to \"not discussed\", "
         "summary to a brief note, quote to \"\".\n"
@@ -125,13 +134,20 @@ def extract_one(client, ticker):
 
 
 def main(argv):
+    """Extract analyses. Returns 0 if every requested bank succeeded, else 1.
+
+    Missing API key, or any bank that fails to extract, returns non-zero so a
+    pipeline can stop before cross-reading on incomplete data. Note: a quote
+    that fails the verbatim check is flagged in the JSON, not a hard failure --
+    extraction still succeeded, the flag is the signal there.
+    """
     load_dotenv()
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("ERROR: ANTHROPIC_API_KEY not set. Set it in your environment or in a .env file.")
-        return
+        return 1
     if not argv:
         print(__doc__)
-        return
+        return 0
 
     if argv[0] == "--all":
         tickers = [t for t in BANKS
@@ -140,12 +156,20 @@ def main(argv):
         tickers = [t.upper() for t in argv]
 
     client = anthropic.Anthropic()
+    failed = []
     for t in tickers:
         try:
             extract_one(client, t)
         except Exception as e:
             print(f"  {t}: FAILED -- {e}")
+            failed.append(t)
+
+    if failed:
+        print(f"extract: {len(tickers) - len(failed)}/{len(tickers)} ok; "
+              f"FAILED: {', '.join(failed)}")
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    sys.exit(main(sys.argv[1:]))

@@ -1,0 +1,79 @@
+{
+  "call_date": "2026-04-14",
+  "headline_metrics": {
+    "eps": "$3.06",
+    "nii": "NII ex-Markets up 7% YoY",
+    "revenue": "$24.6 billion (+14% YoY)",
+    "roe_rotce": "ROTCE 13.1%",
+    "cet1": "12.7%",
+    "nco_rate": "U.S. Cards NCL rate guided 4.0%–4.5% full year; NCLs declined 11% QoQ in cards"
+  },
+  "dimensions": {
+    "nim_nii": {
+      "summary": "NII ex-Markets grew 7% YoY in Q1, beating the full-year guidance range of 5%–6%, driven by client-led deposit and loan volume growth across Services and Wealth. Management held guidance unchanged at 5%–6% for the full year, citing macro uncertainty and deliberate conservatism, and noted the American Airlines/Barclays card portfolio acquisition is already embedded in that guidance.",
+      "stance": "held",
+      "quote": "What we guided for the year—on the deck—is 5% to 6% NII ex Markets growth, anchored by mid-single-digit growth for both loans and deposits. We are pleased that Q1 is a good showing against that.",
+      "speaker": "Gonzalo Luchetti (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "credit_normalization": {
+      "summary": "Credit is improving in U.S. Cards, where net credit losses declined 11% QoQ and the full-year NCL rate guidance was tightened down to 4.0%–4.5% (better than prior combined Branded Cards + Retail Services aggregate). Corporate credit remains pristine with low nonaccrual loans and NCLs. However, a firm-wide ACL build of $597 million was recorded to reflect increased macro uncertainty, skewing the reserve model further toward a downside scenario.",
+      "stance": "improving",
+      "quote": "In terms of credit, we expect a total U.S. Cards NCL rate of between 4% and 4.5%, which is lower than the aggregate of the expectations that we provided previously for Branded Cards and Retail Services, reflecting the delinquency trends and loss performance we have seen year to date.",
+      "speaker": "Gonzalo Luchetti (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "cre_reserves": {
+      "summary": "CRE was not specifically called out as a distinct reserve driver. The firm reported a firm-wide net ACL BUILD of $597 million, attributed broadly to increased macroeconomic uncertainty (skew toward downside scenario with ~7% unemployment), U.S. Cards seasonal mix and the Barclays American Airlines portfolio forward purchase, and Banking corporate credit reflecting macro uncertainty and exposure growth — not CRE-specific dynamics. Office CRE was not mentioned.",
+      "stance": "building",
+      "quote": "Embedded in the firm-wide net ACL build is a farther skew to the downside scenario, reflecting the increased uncertainty in the macroeconomic outlook. Our reserves now incorporate an eight-quarter weighted average unemployment rate of approximately 5.4%, which continues to include a downside scenario average unemployment rate of nearly 7%.",
+      "speaker": "Gonzalo Luchetti (CFO)",
+      "confidence": "low",
+      "verbatim_ok": true
+    },
+    "deposit_costs": {
+      "summary": "Deposit betas are described as 'quite stable,' reflecting the strength of Citi's value proposition and deep client embeddedness, particularly in Services. Deposit pricing is not a headwind; mix management and pricing discipline are cited as contributors to NII growth. No explicit discussion of rising or falling deposit costs.",
+      "stance": "stable",
+      "quote": "Pricing discipline helps—betas are quite stable for us, a proof that our value proposition is performing and how embedded we are with clients, our global network on Services, and the quality of our advice and engagement on the Wealth business.",
+      "speaker": "Gonzalo Luchetti (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "capital_return": {
+      "summary": "Citi executed a record $6.3 billion in share buybacks in Q1, partly funded by ~$4 billion of capital released from the Russia exit, approaching completion of the $20 billion repurchase plan. CET1 ended at 12.7%, ~110 bps above the 11.6% regulatory requirement, and management affirmed a 100–110 bps management buffer target going forward. On Basel III/GSIB, management expects a 'moderate net benefit' from the current proposals and will advocate for further changes in the comment period.",
+      "stance": "increasing",
+      "quote": "In the first quarter, we continued to deploy capital to support client-driven growth while at the same time prioritizing the return of capital to common shareholders, as evidenced by the $6.3 billion in buybacks executed, which includes the benefit from the sale of the remaining operations in Russia.",
+      "speaker": "Gonzalo Luchetti (CFO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "loan_growth": {
+      "summary": "Loan growth is entirely organic. Management was emphatic — 'we are only interested in and focused on organic growth. Period.' — and explicitly rejected any acquisition speculation. Net end-of-period loans grew 1% sequentially and ~5% ex-Markets YoY, driven by export agency finance and working capital in Services, securities-based lending in Wealth, and financing activity in Markets. U.S. Cards loans were up 4% YoY but declined seasonally in the quarter. The Barclays American Airlines co-branded card portfolio is an upcoming acquisition that is already embedded in full-year NII guidance.",
+      "stance": "steady",
+      "quote": "we are only interested in and focused on organic growth. Period.",
+      "speaker": "Jane Fraser (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "macro_outlook": {
+      "summary": "Management struck a cautious tone, noting that Middle East conflict is weighing harder on Asia and Europe than on the U.S. and Brazil, that inflation is a rising risk, and that central banks may lean toward more restrictive policy. The reserve model was skewed further toward a downside scenario (7% unemployment). CEO Fraser cautioned against extrapolating Q1 strength, citing an 'unclear macro environment ahead.'",
+      "stance": "cautious",
+      "quote": "the impact of the Middle East conflict is hitting Asia and Europe harder than countries such as the U.S. and Brazil, which are more insulated from energy shocks. Clearly, the longer this goes on, the more pronounced the second- or third-order impacts are going to be around the world. And inflation is now a greater risk to growth and will likely cause central banks to lean towards more restrictive monetary policies.",
+      "speaker": "Jane Fraser (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    },
+    "notable_qa": {
+      "summary": "Mike Mayo of Wells Fargo pressed Jane Fraser repeatedly and bluntly on whether Citigroup is pursuing an acquisition — referencing 'so many articles' — and demanded a definitive on-record denial. Fraser responded with an unambiguous, categorical rejection, stating Citi is 'not interested in anything other than organic growth,' which she had already framed as the single key takeaway from the call.",
+      "stance": "defensive-definitive",
+      "quote": "I am always transparent. I am always straightforward with you. I want to be crystal clear: we are not interested in anything other than organic growth.",
+      "speaker": "Jane Fraser (CEO)",
+      "confidence": "high",
+      "verbatim_ok": true
+    }
+  },
+  "ticker": "C",
+  "bank_name": "Citigroup"
+}

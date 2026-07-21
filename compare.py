@@ -20,6 +20,7 @@ Usage:
 """
 
 import os
+import sys
 import json
 from collections import Counter, defaultdict
 
@@ -163,10 +164,16 @@ def unverified_quotes(analyses):
 
 
 def main():
+    """Write the cross-read. Returns 0 on success, 1 if there's nothing to read.
+
+    Note: unverified quotes are a flag inside the report, not a failure -- the
+    cross-read still wrote successfully, so this returns 0 and the caller checks
+    the report's flag list (or re-runs verify_quotes.py) for that signal.
+    """
     analyses = load_analyses()
     if not analyses:
         print(f"No analyses found in {OUT_DIR}. Run extract.py --all first.")
-        return
+        return 1
 
     present = [t for t in BANK_ORDER if t in analyses]
     missing = [t for t in BANK_ORDER if t not in analyses]
@@ -204,7 +211,7 @@ def main():
     print(f"Banks: {len(present)}/7 ({', '.join(present)})"
           + (f"  MISSING: {', '.join(missing)}" if missing else ""))
     if flags:
-        print(f"\n⚠️  {len(flags)} unverified quote(s) flagged -- check before publishing.")
+        print(f"\n[!] {len(flags)} unverified quote(s) flagged -- check before publishing.")
     print("\nMost contested dimensions:")
     for key, label, _g, _s in DIMENSIONS:
         stances = []
@@ -215,7 +222,8 @@ def main():
         if n >= 2:
             spread = ", ".join(f"{s}={c}" for s, c in counts.most_common())
             print(f"  - {label}: {spread}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
