@@ -24,6 +24,8 @@ bank list and quarter are just config — see [Run a new quarter](#run-a-new-qua
   honest ledger of what was captured when.
 - **[First-reads](outputs/first-reads/)** — same-day and post-print reaction notes
   written as the numbers dropped.
+- **[Weekly briefs](briefs/)** — the living coverage brief, published here
+  automatically each week (newest file = current brief).
 
 ---
 
